@@ -1,0 +1,182 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Docente\\Desktop\\ATM\\ATM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F7ED489-26F5-4E80-9E96-34C13E6514EB}|ATM.csproj|c:\\users\\docente\\desktop\\atm\\atm\\forms\\frmmenuprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F7ED489-26F5-4E80-9E96-34C13E6514EB}|ATM.csproj|solutionrelative:forms\\frmmenuprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F7ED489-26F5-4E80-9E96-34C13E6514EB}|ATM.csproj|C:\\Users\\Docente\\Desktop\\ATM\\ATM\\forms\\frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F7ED489-26F5-4E80-9E96-34C13E6514EB}|ATM.csproj|solutionrelative:forms\\frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F7ED489-26F5-4E80-9E96-34C13E6514EB}|ATM.csproj|C:\\Users\\Docente\\Desktop\\ATM\\ATM\\themes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F7ED489-26F5-4E80-9E96-34C13E6514EB}|ATM.csproj|solutionrelative:themes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F7ED489-26F5-4E80-9E96-34C13E6514EB}|ATM.csproj|C:\\Users\\Docente\\Desktop\\ATM\\ATM\\themes\\coloresatm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F7ED489-26F5-4E80-9E96-34C13E6514EB}|ATM.csproj|solutionrelative:themes\\coloresatm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F7ED489-26F5-4E80-9E96-34C13E6514EB}|ATM.csproj|C:\\Users\\Docente\\Desktop\\ATM\\ATM\\simulacion\\serviciologinsimulado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F7ED489-26F5-4E80-9E96-34C13E6514EB}|ATM.csproj|solutionrelative:simulacion\\serviciologinsimulado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F7ED489-26F5-4E80-9E96-34C13E6514EB}|ATM.csproj|C:\\Users\\Docente\\Desktop\\ATM\\ATM\\forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2F7ED489-26F5-4E80-9E96-34C13E6514EB}|ATM.csproj|solutionrelative:forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F7ED489-26F5-4E80-9E96-34C13E6514EB}|ATM.csproj|C:\\Users\\Docente\\Desktop\\ATM\\ATM\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2F7ED489-26F5-4E80-9E96-34C13E6514EB}|ATM.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F7ED489-26F5-4E80-9E96-34C13E6514EB}|ATM.csproj|C:\\Users\\Docente\\Desktop\\ATM\\ATM\\forms\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F7ED489-26F5-4E80-9E96-34C13E6514EB}|ATM.csproj|solutionrelative:forms\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F7ED489-26F5-4E80-9E96-34C13E6514EB}|ATM.csproj|C:\\Users\\Docente\\Desktop\\ATM\\ATM\\forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F7ED489-26F5-4E80-9E96-34C13E6514EB}|ATM.csproj|solutionrelative:forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmMenuPrincipal.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Docente\\Desktop\\ATM\\ATM\\Forms\\frmMenuPrincipal.Designer.cs",
+              "RelativeDocumentMoniker": "Forms\\frmMenuPrincipal.Designer.cs",
+              "ToolTip": "C:\\Users\\Docente\\Desktop\\ATM\\ATM\\Forms\\frmMenuPrincipal.Designer.cs",
+              "RelativeToolTip": "Forms\\frmMenuPrincipal.Designer.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAArwC8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T22:25:47.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmLogin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Docente\\Desktop\\ATM\\ATM\\Forms\\frmLogin.Designer.cs",
+              "RelativeDocumentMoniker": "Forms\\frmLogin.Designer.cs",
+              "ToolTip": "C:\\Users\\Docente\\Desktop\\ATM\\ATM\\Forms\\frmLogin.Designer.cs",
+              "RelativeToolTip": "Forms\\frmLogin.Designer.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAwDYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T22:03:35.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Docente\\Desktop\\ATM\\ATM\\Themes\\Program.cs",
+              "RelativeDocumentMoniker": "Themes\\Program.cs",
+              "ToolTip": "C:\\Users\\Docente\\Desktop\\ATM\\ATM\\Themes\\Program.cs",
+              "RelativeToolTip": "Themes\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T22:19:25.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ColoresATM.cs",
+              "DocumentMoniker": "C:\\Users\\Docente\\Desktop\\ATM\\ATM\\Themes\\ColoresATM.cs",
+              "RelativeDocumentMoniker": "Themes\\ColoresATM.cs",
+              "ToolTip": "C:\\Users\\Docente\\Desktop\\ATM\\ATM\\Themes\\ColoresATM.cs",
+              "RelativeToolTip": "Themes\\ColoresATM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T22:16:15.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Docente\\Desktop\\ATM\\ATM\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Users\\Docente\\Desktop\\ATM\\ATM\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-09-09T22:13:04.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Docente\\Desktop\\ATM\\ATM\\Forms\\frmLogin.cs",
+              "RelativeDocumentMoniker": "Forms\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\Docente\\Desktop\\ATM\\ATM\\Forms\\frmLogin.cs",
+              "RelativeToolTip": "Forms\\frmLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T22:04:24.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmLogin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Docente\\Desktop\\ATM\\ATM\\Forms\\frmLogin.cs",
+              "RelativeDocumentMoniker": "Forms\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\Docente\\Desktop\\ATM\\ATM\\Forms\\frmLogin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Forms\\frmLogin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T22:01:12.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServicioLoginSimulado.cs",
+              "DocumentMoniker": "C:\\Users\\Docente\\Desktop\\ATM\\ATM\\Simulacion\\ServicioLoginSimulado.cs",
+              "RelativeDocumentMoniker": "Simulacion\\ServicioLoginSimulado.cs",
+              "ToolTip": "C:\\Users\\Docente\\Desktop\\ATM\\ATM\\Simulacion\\ServicioLoginSimulado.cs",
+              "RelativeToolTip": "Simulacion\\ServicioLoginSimulado.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T22:17:19.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmMenuPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\Docente\\Desktop\\ATM\\ATM\\Forms\\frmMenuPrincipal.cs",
+              "RelativeDocumentMoniker": "Forms\\frmMenuPrincipal.cs",
+              "ToolTip": "C:\\Users\\Docente\\Desktop\\ATM\\ATM\\Forms\\frmMenuPrincipal.cs",
+              "RelativeToolTip": "Forms\\frmMenuPrincipal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T22:06:51.589Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 294,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
