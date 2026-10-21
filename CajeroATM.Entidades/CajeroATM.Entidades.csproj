@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Capa de ENTIDADES: clases del dominio (Cliente, Cuenta, Tarjeta).
+       No depende de ningún otro proyecto. -->
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>CajeroATM.Entidades</RootNamespace>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+</Project>

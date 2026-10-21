@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Pruebas automáticas de integración: ejercitan Datos y Negocio contra
+       una base MySQL real. No forman parte de la aplicación del cajero. -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>CajeroATM.Pruebas</RootNamespace>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CajeroATM.Entidades\CajeroATM.Entidades.csproj" />
+    <ProjectReference Include="..\CajeroATM.Datos\CajeroATM.Datos.csproj" />
+    <ProjectReference Include="..\CajeroATM.Negocio\CajeroATM.Negocio.csproj" />
+  </ItemGroup>
+</Project>

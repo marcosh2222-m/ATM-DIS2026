@@ -1,9 +1,0 @@
-C:\Users\Docente\Desktop\ATM\ATM\obj\Debug\ATM.csproj.AssemblyReference.cache
-C:\Users\Docente\Desktop\ATM\ATM\obj\Debug\ATM.csproj.GenerateResource.cache
-C:\Users\Docente\Desktop\ATM\ATM\obj\Debug\ATM.csproj.CoreCompileInputs.cache
-C:\Users\Docente\Desktop\ATM\ATM\bin\Debug\ATM.exe.config
-C:\Users\Docente\Desktop\ATM\ATM\bin\Debug\ATM.exe
-C:\Users\Docente\Desktop\ATM\ATM\bin\Debug\ATM.pdb
-C:\Users\Docente\Desktop\ATM\ATM\obj\Debug\ATM.exe
-C:\Users\Docente\Desktop\ATM\ATM\obj\Debug\ATM.pdb
-C:\Users\Docente\Desktop\ATM\ATM\obj\Debug\CajeroATM.Presentacion.Properties.Resources.resources

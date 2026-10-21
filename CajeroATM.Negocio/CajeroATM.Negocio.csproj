@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Capa de NEGOCIO: reglas, validaciones y orquestación.
+       Referencia: Entidades y Datos. -->
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>CajeroATM.Negocio</RootNamespace>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CajeroATM.Entidades\CajeroATM.Entidades.csproj" />
+    <ProjectReference Include="..\CajeroATM.Datos\CajeroATM.Datos.csproj" />
+  </ItemGroup>
+</Project>

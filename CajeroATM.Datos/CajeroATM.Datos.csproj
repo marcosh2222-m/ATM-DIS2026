@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Capa de DATOS: acceso a MySQL solo mediante stored procedures.
+       Referencia: Entidades. -->
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>CajeroATM.Datos</RootNamespace>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MySqlConnector" Version="2.3.7" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CajeroATM.Entidades\CajeroATM.Entidades.csproj" />
+  </ItemGroup>
+</Project>
