@@ -18,7 +18,7 @@ namespace CajeroATM.Negocio.Operaciones
     /// </summary>
     public abstract class Operacion
     {
-        // Resultado de Operación (Diccionario de Datos): [ Exitosa | Rechazada | Error ]
+        // Estado de Transacción (Diccionario de Datos, 11.7): [ Exitosa | Rechazada | Error ]
         public const string RESULTADO_EXITOSA = "Exitosa";
         public const string RESULTADO_RECHAZADA = "Rechazada";
         public const string RESULTADO_ERROR = "Error";
