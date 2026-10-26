@@ -2,7 +2,7 @@ using CajeroATM.Datos.Resultados;
 
 namespace CajeroATM.Negocio.Operaciones
 {
-    public class Transferencia : Operacion
+    public sealed class Transferencia : Operacion
     {
         // -numeroCuentaDestino: string
         // (El cajero solo conoce el NÚMERO que tipea el cliente; los datos de

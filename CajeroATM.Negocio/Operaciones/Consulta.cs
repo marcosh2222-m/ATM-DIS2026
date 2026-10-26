@@ -2,7 +2,7 @@ using CajeroATM.Datos.Resultados;
 
 namespace CajeroATM.Negocio.Operaciones
 {
-    public class Consulta : Operacion
+    public sealed class Consulta : Operacion
     {
         private decimal _saldoConsultado;
 

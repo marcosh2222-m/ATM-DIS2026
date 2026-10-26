@@ -2,7 +2,7 @@ using CajeroATM.Datos.Resultados;
 
 namespace CajeroATM.Negocio.Operaciones
 {
-    public class Extraccion : Operacion
+    public sealed class Extraccion : Operacion
     {
         /// <summary>Denominación de los billetes del cajero (DD: monto múltiplo de 100).</summary>
         public const decimal DENOMINACION = 100m;
