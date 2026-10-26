@@ -1,6 +1,6 @@
 namespace CajeroATM.Datos.Resultados
 {
-    /// <summary>Valores de p_Resultado de USP_ValidarLogin.</summary>
+    /// <summary>Valores de p_Resultado de USP_ValidarPIN (Red Central).</summary>
     public enum CodigoLogin
     {
         Ok,
@@ -39,7 +39,7 @@ namespace CajeroATM.Datos.Resultados
                 case "VENCIDA":        return CodigoLogin.Vencida;
                 case "ANULADA":        return CodigoLogin.Anulada;
                 case "NO_EXISTE":      return CodigoLogin.NoExiste;
-                default: throw new DatosException("USP_ValidarLogin devolvió un código desconocido: '" + codigoSP + "'.", null);
+                default: throw new DatosException("USP_ValidarPIN devolvió un código desconocido: '" + codigoSP + "'.", null);
             }
         }
 

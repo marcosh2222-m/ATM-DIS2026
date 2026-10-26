@@ -61,7 +61,7 @@ namespace CajeroATM.Entidades
         }
 
         // +RegistrarIntentoFallido(): void
-        // Al tercer intento la tarjeta queda bloqueada (misma regla que USP_ValidarLogin).
+        // Al tercer intento la tarjeta queda bloqueada (misma regla que USP_ValidarPIN).
         public void RegistrarIntentoFallido()
         {
             if (EstaBloqueada()) return;
@@ -71,7 +71,7 @@ namespace CajeroATM.Entidades
                 _estado = ESTADO_BLOQUEADA;
         }
 
-        /// <summary>Refleja un bloqueo que ya aplicó la base (USP_ValidarLogin devolvió BLOQUEADA).</summary>
+        /// <summary>Refleja un bloqueo que ya aplicó la base (USP_ValidarPIN devolvió BLOQUEADA).</summary>
         public void Bloquear()
         {
             _estado = ESTADO_BLOQUEADA;

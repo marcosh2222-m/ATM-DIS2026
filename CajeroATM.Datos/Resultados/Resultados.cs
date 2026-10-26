@@ -15,7 +15,7 @@ namespace CajeroATM.Datos.Resultados
         public byte[] Salt { get; }
     }
 
-    /// <summary>OUT de USP_ValidarLogin.</summary>
+    /// <summary>OUT de USP_ValidarPIN.</summary>
     public class ResultadoLogin
     {
         public ResultadoLogin(CodigoLogin codigo, int? idCuenta)

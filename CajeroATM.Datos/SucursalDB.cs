@@ -6,8 +6,9 @@ using MySqlConnector;
 namespace CajeroATM.Datos
 {
     /// <summary>
-    /// Actor SUCURSAL: flujo raíz del login (validar tarjeta y PIN).
-    /// Envuelve USP_ObtenerDatosLogin y USP_ValidarLogin.
+    /// Actor SUCURSAL: flujo raíz del login. Valida la tarjeta
+    /// (CU Autenticar Usuario, pasos 3 y 4). Envuelve USP_ObtenerDatosLogin.
+    /// El PIN lo valida Red Central (CentralDB.ValidarPIN).
     /// </summary>
     public class SucursalDB : AccesoDatos
     {
@@ -46,32 +47,6 @@ namespace CajeroATM.Datos
                         byte[] salt = (byte[])lector["Salt"];
                         return new DatosLogin(tarjeta, salt);
                     }
-                }
-            });
-        }
-
-        /// <summary>
-        /// Paso 2 del login: compara el hash PBKDF2 ya calculado en Negocio.
-        /// El SP maneja intentos fallidos y bloqueo al tercero.
-        /// </summary>
-        public ResultadoLogin ValidarLogin(int idTarjeta, byte[] pinHash)
-        {
-            if (pinHash == null || pinHash.Length == 0)
-                throw new ArgumentException("Falta el hash del PIN.", nameof(pinHash));
-
-            const string sp = "USP_ValidarLogin";
-            return Ejecutar(sp, conexion =>
-            {
-                using (MySqlCommand comando = CrearComando(conexion, sp))
-                {
-                    AgregarEntrada(comando, "p_IdTarjeta", MySqlDbType.Int32, idTarjeta);
-                    AgregarEntrada(comando, "p_PINHashCalculado", MySqlDbType.VarBinary, pinHash);
-                    MySqlParameter resultado = AgregarSalida(comando, "p_Resultado", MySqlDbType.VarChar);
-                    MySqlParameter idCuenta = AgregarSalida(comando, "p_IdCuenta", MySqlDbType.Int32);
-
-                    comando.ExecuteNonQuery();
-
-                    return new ResultadoLogin(MapeoCodigos.ALogin(LeerTexto(resultado)), LeerEntero(idCuenta));
                 }
             });
         }

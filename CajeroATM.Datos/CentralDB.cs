@@ -6,15 +6,42 @@ using MySqlConnector;
 namespace CajeroATM.Datos
 {
     /// <summary>
-    /// Actor RED CENTRAL: datos de cuenta y autorización de operaciones.
-    /// Envuelve USP_ObtenerDatosCuenta, USP_ConsultarSaldo, USP_Extraccion
-    /// y USP_Transferencia.
+    /// Actor RED CENTRAL: validación del PIN, datos de cuenta y autorización
+    /// de operaciones. Envuelve USP_ValidarPIN, USP_ObtenerDatosCuenta,
+    /// USP_ConsultarSaldo, USP_Extraccion y USP_Transferencia.
     /// </summary>
     public class CentralDB : AccesoDatos
     {
         public CentralDB() : base(null) { }
 
         public CentralDB(string cadenaConexion) : base(cadenaConexion) { }
+
+        /// <summary>
+        /// Paso 2 del login (CU Autenticar Usuario, pasos 7 y 8): compara el hash
+        /// PBKDF2 ya calculado en Negocio. El SP maneja intentos fallidos y
+        /// bloqueo al tercero. El PIN nunca viaja en texto plano.
+        /// </summary>
+        public ResultadoLogin ValidarPIN(int idTarjeta, byte[] pinHash)
+        {
+            if (pinHash == null || pinHash.Length == 0)
+                throw new ArgumentException("Falta el hash del PIN.", nameof(pinHash));
+
+            const string sp = "USP_ValidarPIN";
+            return Ejecutar(sp, conexion =>
+            {
+                using (MySqlCommand comando = CrearComando(conexion, sp))
+                {
+                    AgregarEntrada(comando, "p_IdTarjeta", MySqlDbType.Int32, idTarjeta);
+                    AgregarEntrada(comando, "p_PINHashCalculado", MySqlDbType.VarBinary, pinHash);
+                    MySqlParameter resultado = AgregarSalida(comando, "p_Resultado", MySqlDbType.VarChar);
+                    MySqlParameter idCuenta = AgregarSalida(comando, "p_IdCuenta", MySqlDbType.Int32);
+
+                    comando.ExecuteNonQuery();
+
+                    return new ResultadoLogin(MapeoCodigos.ALogin(LeerTexto(resultado)), LeerEntero(idCuenta));
+                }
+            });
+        }
 
         /// <summary>Cuenta + titular, para armar la sesión tras el login. null si no existe.</summary>
         public DatosCuenta ObtenerDatosCuenta(int idCuenta)

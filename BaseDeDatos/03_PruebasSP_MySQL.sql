@@ -29,37 +29,37 @@ SET @hash5678 = UNHEX('C546408B2F79C155F83407BB3BBF9D8123652BE4200B7FD4EFE712F9F
 SET @hashMal  = UNHEX('00');
 
 -- ---------------------------------------------------------
--- LOGIN (USP_ValidarLogin)
+-- VALIDACIÓN DEL PIN - RED CENTRAL (USP_ValidarPIN)
 -- ---------------------------------------------------------
-CALL USP_ValidarLogin(1, @hash1234, @r, @c);
+CALL USP_ValidarPIN(1, @hash1234, @r, @c);
 INSERT INTO resultados (Prueba, Esperado, Obtenido, Ok)
 VALUES ('Login tarjeta 1 con PIN correcto', 'OK / cuenta 1', CONCAT(@r, ' / cuenta ', IFNULL(@c, 'NULL')), @r = 'OK' AND @c = 1);
 
-CALL USP_ValidarLogin(1, @hashMal, @r, @c);
+CALL USP_ValidarPIN(1, @hashMal, @r, @c);
 INSERT INTO resultados (Prueba, Esperado, Obtenido, Ok)
 SELECT 'Login con PIN incorrecto suma un intento', 'PIN_INCORRECTO / 1 intento',
        CONCAT(@r, ' / ', IntentosFallidos, ' intento'), @r = 'PIN_INCORRECTO' AND IntentosFallidos = 1
 FROM Tarjeta WHERE IdTarjeta = 1;
 
-CALL USP_ValidarLogin(1, @hash1234, @r, @c);
+CALL USP_ValidarPIN(1, @hash1234, @r, @c);
 INSERT INTO resultados (Prueba, Esperado, Obtenido, Ok)
 SELECT 'Login correcto reinicia los intentos', 'OK / 0 intentos',
        CONCAT(@r, ' / ', IntentosFallidos, ' intentos'), @r = 'OK' AND IntentosFallidos = 0
 FROM Tarjeta WHERE IdTarjeta = 1;
 
-CALL USP_ValidarLogin(2, @hashMal, @r, @c);
-CALL USP_ValidarLogin(2, @hashMal, @r, @c);
-CALL USP_ValidarLogin(2, @hashMal, @r, @c);
+CALL USP_ValidarPIN(2, @hashMal, @r, @c);
+CALL USP_ValidarPIN(2, @hashMal, @r, @c);
+CALL USP_ValidarPIN(2, @hashMal, @r, @c);
 INSERT INTO resultados (Prueba, Esperado, Obtenido, Ok)
 SELECT 'Tercer PIN incorrecto bloquea la tarjeta', 'BLOQUEADA / Bloqueada',
        CONCAT(@r, ' / ', Estado), @r = 'BLOQUEADA' AND Estado = 'Bloqueada'
 FROM Tarjeta WHERE IdTarjeta = 2;
 
-CALL USP_ValidarLogin(2, @hash5678, @r, @c);
+CALL USP_ValidarPIN(2, @hash5678, @r, @c);
 INSERT INTO resultados (Prueba, Esperado, Obtenido, Ok)
 VALUES ('Tarjeta bloqueada rechaza aunque el PIN sea correcto', 'BLOQUEADA', @r, @r = 'BLOQUEADA');
 
-CALL USP_ValidarLogin(999, @hash1234, @r, @c);
+CALL USP_ValidarPIN(999, @hash1234, @r, @c);
 INSERT INTO resultados (Prueba, Esperado, Obtenido, Ok)
 VALUES ('Tarjeta inexistente', 'NO_EXISTE', @r, @r = 'NO_EXISTE');
 
@@ -67,7 +67,7 @@ VALUES ('Tarjeta inexistente', 'NO_EXISTE', @r, @r = 'NO_EXISTE');
 INSERT INTO Tarjeta (IdCuenta, NumeroTarjeta, PIN_Hash, Salt, FechaVencimiento, Estado)
 VALUES (2, '4000999900000001', @hash5678, UNHEX('00'), '2024-01-31', 'Activa');
 SET @idVencida = LAST_INSERT_ID();
-CALL USP_ValidarLogin(@idVencida, @hash5678, @r, @c);
+CALL USP_ValidarPIN(@idVencida, @hash5678, @r, @c);
 INSERT INTO resultados (Prueba, Esperado, Obtenido, Ok)
 SELECT 'Tarjeta vencida queda marcada como Vencida', 'VENCIDA / Vencida',
        CONCAT(@r, ' / ', Estado), @r = 'VENCIDA' AND Estado = 'Vencida'

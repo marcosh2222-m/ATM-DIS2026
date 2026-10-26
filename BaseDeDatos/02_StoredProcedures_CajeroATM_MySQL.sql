@@ -13,6 +13,10 @@
 -- - Nuevo USP_ObtenerDatosCuenta (datos de cuenta + titular para el
 --   menú, sin registrar una consulta de saldo)
 --
+-- v3 (validación del PIN en Red Central, como el CU Autenticar Usuario):
+-- - USP_ValidarLogin pasa a llamarse USP_ValidarPIN y es de RED CENTRAL.
+--   SUCURSAL queda con la validación de la tarjeta (USP_ObtenerDatosLogin).
+--
 -- CAMBIOS RESPECTO A LA VERSIÓN SQL SERVER:
 -- - CREATE OR ALTER PROCEDURE no existe en MySQL -> se usa
 --   DROP PROCEDURE IF EXISTS + CREATE PROCEDURE
@@ -63,16 +67,18 @@ BEGIN
 END $$
 
 -- =========================================================
--- 2. USP_ValidarLogin
--- Actor: SUCURSAL.
+-- 2. USP_ValidarPIN
+-- Actor: RED CENTRAL (CU Autenticar Usuario, pasos 7 y 8).
 -- Paso 2 del login: recibe el hash YA calculado en C# y lo
 -- compara. Maneja intentos fallidos y bloqueo automático.
+-- (Reemplaza a USP_ValidarLogin de versiones anteriores.)
 --
 -- p_Resultado posibles: OK | PIN_INCORRECTO | BLOQUEADA |
 --                        VENCIDA | ANULADA | NO_EXISTE
 -- =========================================================
 DROP PROCEDURE IF EXISTS USP_ValidarLogin $$
-CREATE PROCEDURE USP_ValidarLogin (
+DROP PROCEDURE IF EXISTS USP_ValidarPIN $$
+CREATE PROCEDURE USP_ValidarPIN (
     IN  p_IdTarjeta         INT,
     IN  p_PINHashCalculado  VARBINARY(64),
     OUT p_Resultado         VARCHAR(30),
@@ -445,6 +451,6 @@ DELIMITER ;
 -- CALL USP_ObtenerDatosLogin('4000111122223333');
 --
 -- (hash PBKDF2 del PIN 1234 con el salt del seed; ver script 01)
--- CALL USP_ValidarLogin(1, UNHEX('1A1A1772D2B4B74BF3C01D538FC3F45BD8536DFA17BDF135D2FF50DE4F5E76BE'), @resultado, @idCuenta);
+-- CALL USP_ValidarPIN(1, UNHEX('1A1A1772D2B4B74BF3C01D538FC3F45BD8536DFA17BDF135D2FF50DE4F5E76BE'), @resultado, @idCuenta);
 -- SELECT @resultado, @idCuenta;
 -- =========================================================

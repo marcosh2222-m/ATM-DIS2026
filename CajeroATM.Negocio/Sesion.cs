@@ -16,7 +16,7 @@ namespace CajeroATM.Negocio
     /// Uso típico desde la Presentación:
     ///   var sesion = new Sesion();
     ///   if (sesion.IniciarSesion(numeroTarjeta))   // Sucursal valida la tarjeta
-    ///       sesion.Autenticar(pin);                 // Sucursal valida el PIN
+    ///       sesion.Autenticar(pin);                 // Red Central valida el PIN
     ///   ... new Extraccion(sesion, monto).Ejecutar() ...
     ///   sesion.Cerrar();
     /// Después de cada paso, UltimoResultado indica el motivo de un rechazo.
@@ -113,7 +113,7 @@ namespace CajeroATM.Negocio
 
         // =========================================================
         // +Autenticar(pin: string): bool
-        // Paso 2 (Sucursal): hash PBKDF2 del PIN y validación en la base.
+        // Paso 2 (Red Central): hash PBKDF2 del PIN y validación en la base.
         // PIN incorrecto: la sesión sigue en AUTENTICANDO para reintentar.
         // Bloqueo / vencimiento: la sesión se cierra.
         // =========================================================
@@ -132,7 +132,7 @@ namespace CajeroATM.Negocio
             ResultadoLogin resultado;
             try
             {
-                resultado = LlamarDatos(() => _sucursal.ValidarLogin(_tarjeta.IdTarjeta, hash));
+                resultado = LlamarDatos(() => _central.ValidarPIN(_tarjeta.IdTarjeta, hash));
             }
             finally
             {

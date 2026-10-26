@@ -66,10 +66,10 @@ namespace CajeroATM.Pruebas
             Prueba("Tarjeta inexistente devuelve null", () =>
                 Verificar(sucursal.ObtenerDatosLogin("1234567890123456") == null, "no devolvió null"));
 
-            Prueba("ValidarLogin con el hash PBKDF2 correcto -> Ok", () =>
+            Prueba("Red Central: ValidarPIN con el hash PBKDF2 correcto -> Ok", () =>
             {
                 DatosLogin datos = sucursal.ObtenerDatosLogin(D.TARJETA_OK);
-                ResultadoLogin r = sucursal.ValidarLogin(datos.Tarjeta.IdTarjeta, SeguridadPin.CalcularHash(D.PIN_OK, datos.Salt));
+                ResultadoLogin r = central.ValidarPIN(datos.Tarjeta.IdTarjeta, SeguridadPin.CalcularHash(D.PIN_OK, datos.Salt));
                 Igual(CodigoLogin.Ok, r.Codigo, "código");
                 Igual((int?)D.IdCuentaA, r.IdCuenta, "IdCuenta");
             });
