@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1550 1736" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="1550" height="1736" fill="white"/>
+<defs><marker id="f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1F3B57"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#1F3B57" stroke-width="1.5"/></marker></defs>
+<text x="775.0" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#1F3B57">Diagrama de Secuencia — Autenticar Usuario</text>
+<line x1="150" y1="150" x2="150" y2="1686" stroke="#1F3B57" stroke-width="1.5" stroke-dasharray="7,6"/>
+<circle cx="150" cy="72" r="10" fill="white" stroke="#1F3B57" stroke-width="2"/>
+<path d="M150,82 L150,108 M134,90 L166,90 M150,108 L137,126 M150,108 L163,126" stroke="#1F3B57" stroke-width="2" fill="none"/>
+<text x="150" y="142" text-anchor="middle" font-size="16" font-weight="700" fill="#1F3B57">Cliente</text>
+<line x1="400" y1="150" x2="400" y2="1686" stroke="#1F3B57" stroke-width="1.5" stroke-dasharray="7,6"/>
+<rect x="320" y="90" width="160" height="46" fill="#2E7D74" stroke="#1F3B57" stroke-width="2"/>
+<text x="400" y="119" text-anchor="middle" font-size="16" font-weight="700" fill="white">:frmLogin</text>
+<line x1="356.3" y1="123" x2="443.7" y2="123" stroke="white" stroke-width="1.6"/>
+<line x1="650" y1="150" x2="650" y2="1686" stroke="#1F3B57" stroke-width="1.5" stroke-dasharray="7,6"/>
+<rect x="570" y="90" width="160" height="46" fill="#2E7D74" stroke="#1F3B57" stroke-width="2"/>
+<text x="650" y="119" text-anchor="middle" font-size="16" font-weight="700" fill="white">:Sesion</text>
+<line x1="616.9" y1="123" x2="683.1" y2="123" stroke="white" stroke-width="1.6"/>
+<line x1="900" y1="150" x2="900" y2="1686" stroke="#1F3B57" stroke-width="1.5" stroke-dasharray="7,6"/>
+<rect x="820" y="90" width="160" height="46" fill="#2E7D74" stroke="#1F3B57" stroke-width="2"/>
+<text x="900" y="119" text-anchor="middle" font-size="16" font-weight="700" fill="white">:Tarjeta</text>
+<line x1="865.6" y1="123" x2="934.4" y2="123" stroke="white" stroke-width="1.6"/>
+<line x1="1150" y1="150" x2="1150" y2="1686" stroke="#1F3B57" stroke-width="1.5" stroke-dasharray="7,6"/>
+<rect x="1070" y="90" width="160" height="46" fill="#2E7D74" stroke="#1F3B57" stroke-width="2"/>
+<text x="1150" y="119" text-anchor="middle" font-size="16" font-weight="700" fill="white">:SucursalDB</text>
+<line x1="1095.3" y1="123" x2="1204.7" y2="123" stroke="white" stroke-width="1.6"/>
+<line x1="1400" y1="150" x2="1400" y2="1686" stroke="#1F3B57" stroke-width="1.5" stroke-dasharray="7,6"/>
+<rect x="1320" y="90" width="160" height="46" fill="#2E7D74" stroke="#1F3B57" stroke-width="2"/>
+<text x="1400" y="119" text-anchor="middle" font-size="16" font-weight="700" fill="white">:CentralDB</text>
+<line x1="1351.1" y1="123" x2="1448.9" y2="123" stroke="white" stroke-width="1.6"/>
+<rect x="175" y="1000" width="1285" height="670" fill="none" stroke="#1F3B57" stroke-width="1.8"/>
+<path d="M175,1000 L235,1000 L235,1016 L225,1026 L175,1026 Z" fill="#EDEFF1" stroke="#1F3B57" stroke-width="1.5"/>
+<text x="185" y="1019" font-size="14" font-weight="700" fill="#1F3B57">alt</text>
+<text x="247" y="1019" font-size="13.5" fill="#1F3B57">[resultado = OK]</text>
+<line x1="175" y1="1282" x2="1460" y2="1282" stroke="#1F3B57" stroke-width="1.5" stroke-dasharray="8,5"/>
+<rect x="181" y="1286" width="139.2" height="19" fill="white"/>
+<text x="185" y="1300" font-size="13.5" fill="#1F3B57">[PIN_INCORRECTO]</text>
+<line x1="175" y1="1450" x2="1460" y2="1450" stroke="#1F3B57" stroke-width="1.5" stroke-dasharray="8,5"/>
+<rect x="181" y="1454" width="98.19999999999999" height="19" fill="white"/>
+<text x="185" y="1468" font-size="13.5" fill="#1F3B57">[BLOQUEADA]</text>
+<rect x="393" y="176" width="14" height="532" fill="white" stroke="#1F3B57" stroke-width="1.8"/>
+<rect x="393" y="736" width="14" height="924" fill="white" stroke="#1F3B57" stroke-width="1.8"/>
+<rect x="643" y="232" width="14" height="420" fill="white" stroke="#1F3B57" stroke-width="1.8"/>
+<rect x="643" y="792" width="14" height="868" fill="white" stroke="#1F3B57" stroke-width="1.8"/>
+<rect x="1143" y="288" width="14" height="84" fill="white" stroke="#1F3B57" stroke-width="1.8"/>
+<rect x="1393" y="904" width="14" height="84" fill="white" stroke="#1F3B57" stroke-width="1.8"/>
+<rect x="893" y="400" width="14" height="84" fill="white" stroke="#1F3B57" stroke-width="1.8"/>
+<rect x="893" y="512" width="14" height="84" fill="white" stroke="#1F3B57" stroke-width="1.8"/>
+<rect x="893" y="1296" width="14" height="28" fill="white" stroke="#1F3B57" stroke-width="1.8"/>
+<rect x="893" y="1464" width="14" height="28" fill="white" stroke="#1F3B57" stroke-width="1.8"/>
+<rect x="1393" y="1016" width="14" height="84" fill="white" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="157" y1="190" x2="393" y2="190" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="275.0" y="182" text-anchor="middle" font-size="14" fill="#1F3B57">insertarTarjeta(numero)</text>
+<line x1="407" y1="246" x2="643" y2="246" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="525.0" y="238" text-anchor="middle" font-size="14" fill="#1F3B57">IniciarSesion(numero)</text>
+<line x1="657" y1="302" x2="1143" y2="302" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="900.0" y="294" text-anchor="middle" font-size="14" fill="#1F3B57">ObtenerDatosLogin(numero)</text>
+<line x1="1143" y1="358" x2="657" y2="358" stroke="#1F3B57" stroke-width="1.6" stroke-dasharray="7,5" marker-end="url(#o)"/>
+<text x="900.0" y="350" text-anchor="middle" font-size="14" font-style="italic" fill="#1F3B57">tarjeta + salt</text>
+<line x1="657" y1="414" x2="893" y2="414" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="775.0" y="406" text-anchor="middle" font-size="14" fill="#1F3B57">EstaBloqueada()</text>
+<line x1="893" y1="470" x2="657" y2="470" stroke="#1F3B57" stroke-width="1.6" stroke-dasharray="7,5" marker-end="url(#o)"/>
+<text x="775.0" y="462" text-anchor="middle" font-size="14" font-style="italic" fill="#1F3B57">false</text>
+<line x1="657" y1="526" x2="893" y2="526" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="775.0" y="518" text-anchor="middle" font-size="14" fill="#1F3B57">EstaVencida()</text>
+<line x1="893" y1="582" x2="657" y2="582" stroke="#1F3B57" stroke-width="1.6" stroke-dasharray="7,5" marker-end="url(#o)"/>
+<text x="775.0" y="574" text-anchor="middle" font-size="14" font-style="italic" fill="#1F3B57">false</text>
+<line x1="643" y1="638" x2="407" y2="638" stroke="#1F3B57" stroke-width="1.6" stroke-dasharray="7,5" marker-end="url(#o)"/>
+<text x="525.0" y="630" text-anchor="middle" font-size="14" font-style="italic" fill="#1F3B57">true</text>
+<line x1="393" y1="694" x2="157" y2="694" stroke="#1F3B57" stroke-width="1.6" stroke-dasharray="7,5" marker-end="url(#o)"/>
+<text x="275.0" y="686" text-anchor="middle" font-size="14" font-style="italic" fill="#1F3B57">Solicitud de PIN</text>
+<line x1="157" y1="750" x2="393" y2="750" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="275.0" y="742" text-anchor="middle" font-size="14" fill="#1F3B57">ingresarPIN(pin)</text>
+<line x1="407" y1="806" x2="643" y2="806" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="525.0" y="798" text-anchor="middle" font-size="14" fill="#1F3B57">Autenticar(pin)</text>
+<path d="M657,852 L705,852 L705,874 L658,874" fill="none" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<rect x="710" y="852" width="344.0" height="20" fill="white"/>
+<text x="714" y="867" font-size="14" fill="#1F3B57">hash = CalcularHash(pin, salt)  [PBKDF2]</text>
+<line x1="657" y1="918" x2="1393" y2="918" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="1025.0" y="910" text-anchor="middle" font-size="14" fill="#1F3B57">ValidarPIN(idTarjeta, hash)</text>
+<line x1="1393" y1="974" x2="657" y2="974" stroke="#1F3B57" stroke-width="1.6" stroke-dasharray="7,5" marker-end="url(#o)"/>
+<text x="1025.0" y="966" text-anchor="middle" font-size="14" font-style="italic" fill="#1F3B57">resultado</text>
+<line x1="657" y1="1030" x2="1393" y2="1030" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="1025.0" y="1022" text-anchor="middle" font-size="14" fill="#1F3B57">ObtenerDatosCuenta(idCuenta)</text>
+<line x1="1393" y1="1086" x2="657" y2="1086" stroke="#1F3B57" stroke-width="1.6" stroke-dasharray="7,5" marker-end="url(#o)"/>
+<text x="1025.0" y="1078" text-anchor="middle" font-size="14" font-style="italic" fill="#1F3B57">cliente + cuenta</text>
+<path d="M657,1132 L705,1132 L705,1154 L658,1154" fill="none" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<rect x="710" y="1132" width="150.8" height="20" fill="white"/>
+<text x="714" y="1147" font-size="14" fill="#1F3B57">estado = Operando</text>
+<line x1="643" y1="1198" x2="407" y2="1198" stroke="#1F3B57" stroke-width="1.6" stroke-dasharray="7,5" marker-end="url(#o)"/>
+<text x="525.0" y="1190" text-anchor="middle" font-size="14" font-style="italic" fill="#1F3B57">true</text>
+<line x1="393" y1="1254" x2="157" y2="1254" stroke="#1F3B57" stroke-width="1.6" stroke-dasharray="7,5" marker-end="url(#o)"/>
+<text x="275.0" y="1246" text-anchor="middle" font-size="14" font-style="italic" fill="#1F3B57">Menú de operaciones</text>
+<line x1="657" y1="1310" x2="893" y2="1310" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="775.0" y="1302" text-anchor="middle" font-size="14" fill="#1F3B57">RegistrarIntentoFallido()</text>
+<line x1="643" y1="1366" x2="407" y2="1366" stroke="#1F3B57" stroke-width="1.6" stroke-dasharray="7,5" marker-end="url(#o)"/>
+<text x="525.0" y="1358" text-anchor="middle" font-size="14" font-style="italic" fill="#1F3B57">false (intentos restantes)</text>
+<line x1="393" y1="1422" x2="157" y2="1422" stroke="#1F3B57" stroke-width="1.6" stroke-dasharray="7,5" marker-end="url(#o)"/>
+<text x="275.0" y="1414" text-anchor="middle" font-size="14" font-style="italic" fill="#1F3B57">PIN incorrecto (N intentos)</text>
+<line x1="657" y1="1478" x2="893" y2="1478" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="775.0" y="1470" text-anchor="middle" font-size="14" fill="#1F3B57">Bloquear()</text>
+<path d="M657,1524 L705,1524 L705,1546 L658,1546" fill="none" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<rect x="710" y="1524" width="75.2" height="20" fill="white"/>
+<text x="714" y="1539" font-size="14" fill="#1F3B57">Cerrar()</text>
+<line x1="643" y1="1590" x2="407" y2="1590" stroke="#1F3B57" stroke-width="1.6" stroke-dasharray="7,5" marker-end="url(#o)"/>
+<text x="525.0" y="1582" text-anchor="middle" font-size="14" font-style="italic" fill="#1F3B57">false</text>
+<line x1="393" y1="1646" x2="157" y2="1646" stroke="#1F3B57" stroke-width="1.6" stroke-dasharray="7,5" marker-end="url(#o)"/>
+<text x="275.0" y="1638" text-anchor="middle" font-size="14" font-style="italic" fill="#1F3B57">Tarjeta bloqueada</text>
+<text x="775.0" y="1718" text-anchor="middle" font-size="13" font-style="italic" fill="#595959">Flecha sólida = mensaje sincrónico · línea discontinua = retorno (nombre en cursiva) · rectángulo angosto = foco de control</text>
+</svg>

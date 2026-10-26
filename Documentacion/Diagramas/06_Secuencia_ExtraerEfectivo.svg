@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1550 1120" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="1550" height="1120" fill="white"/>
+<defs><marker id="f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1F3B57"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#1F3B57" stroke-width="1.5"/></marker></defs>
+<text x="775.0" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#1F3B57">Diagrama de Secuencia — Extraer Efectivo</text>
+<line x1="150" y1="150" x2="150" y2="1070" stroke="#1F3B57" stroke-width="1.5" stroke-dasharray="7,6"/>
+<circle cx="150" cy="72" r="10" fill="white" stroke="#1F3B57" stroke-width="2"/>
+<path d="M150,82 L150,108 M134,90 L166,90 M150,108 L137,126 M150,108 L163,126" stroke="#1F3B57" stroke-width="2" fill="none"/>
+<text x="150" y="142" text-anchor="middle" font-size="16" font-weight="700" fill="#1F3B57">Cliente</text>
+<line x1="400" y1="150" x2="400" y2="1070" stroke="#1F3B57" stroke-width="1.5" stroke-dasharray="7,6"/>
+<rect x="320" y="90" width="160" height="46" fill="#2E7D74" stroke="#1F3B57" stroke-width="2"/>
+<text x="400" y="119" text-anchor="middle" font-size="16" font-weight="700" fill="white">:frmExtraccion</text>
+<line x1="333.8" y1="123" x2="466.2" y2="123" stroke="white" stroke-width="1.6"/>
+<line x1="650" y1="150" x2="650" y2="1070" stroke="#1F3B57" stroke-width="1.5" stroke-dasharray="7,6"/>
+<rect x="570" y="90" width="160" height="46" fill="#2E7D74" stroke="#1F3B57" stroke-width="2"/>
+<text x="650" y="119" text-anchor="middle" font-size="16" font-weight="700" fill="white">:Sesion</text>
+<line x1="616.9" y1="123" x2="683.1" y2="123" stroke="white" stroke-width="1.6"/>
+<line x1="900" y1="150" x2="900" y2="1070" stroke="#1F3B57" stroke-width="1.5" stroke-dasharray="7,6"/>
+<rect x="820" y="90" width="160" height="46" fill="#2E7D74" stroke="#1F3B57" stroke-width="2"/>
+<text x="900" y="119" text-anchor="middle" font-size="16" font-weight="700" fill="white">:Extraccion</text>
+<line x1="849.6" y1="123" x2="950.4" y2="123" stroke="white" stroke-width="1.6"/>
+<line x1="1150" y1="150" x2="1150" y2="1070" stroke="#1F3B57" stroke-width="1.5" stroke-dasharray="7,6"/>
+<rect x="1070" y="90" width="160" height="46" fill="#2E7D74" stroke="#1F3B57" stroke-width="2"/>
+<text x="1150" y="119" text-anchor="middle" font-size="16" font-weight="700" fill="white">:Cuenta</text>
+<line x1="1114.9" y1="123" x2="1185.1" y2="123" stroke="white" stroke-width="1.6"/>
+<line x1="1400" y1="150" x2="1400" y2="1070" stroke="#1F3B57" stroke-width="1.5" stroke-dasharray="7,6"/>
+<rect x="1320" y="90" width="160" height="46" fill="#2E7D74" stroke="#1F3B57" stroke-width="2"/>
+<text x="1400" y="119" text-anchor="middle" font-size="16" font-weight="700" fill="white">:CentralDB</text>
+<line x1="1351.1" y1="123" x2="1448.9" y2="123" stroke="white" stroke-width="1.6"/>
+<rect x="175" y="720" width="1285" height="334" fill="none" stroke="#1F3B57" stroke-width="1.8"/>
+<path d="M175,720 L235,720 L235,736 L225,746 L175,746 Z" fill="#EDEFF1" stroke="#1F3B57" stroke-width="1.5"/>
+<text x="185" y="739" font-size="14" font-weight="700" fill="#1F3B57">alt</text>
+<text x="247" y="739" font-size="13.5" fill="#1F3B57">[resultado = OK]</text>
+<line x1="175" y1="946" x2="1460" y2="946" stroke="#1F3B57" stroke-width="1.5" stroke-dasharray="8,5"/>
+<rect x="181" y="950" width="139.2" height="19" fill="white"/>
+<text x="185" y="964" font-size="13.5" fill="#1F3B57">[resultado ≠ OK]</text>
+<rect x="393" y="176" width="14" height="84" fill="white" stroke="#1F3B57" stroke-width="1.8"/>
+<rect x="393" y="288" width="14" height="756" fill="white" stroke="#1F3B57" stroke-width="1.8"/>
+<rect x="893" y="344" width="14" height="700" fill="white" stroke="#1F3B57" stroke-width="1.8"/>
+<rect x="643" y="792" width="14" height="28" fill="white" stroke="#1F3B57" stroke-width="1.8"/>
+<rect x="1143" y="512" width="14" height="84" fill="white" stroke="#1F3B57" stroke-width="1.8"/>
+<rect x="1143" y="736" width="14" height="28" fill="white" stroke="#1F3B57" stroke-width="1.8"/>
+<rect x="1393" y="624" width="14" height="84" fill="white" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="157" y1="190" x2="393" y2="190" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="275.0" y="182" text-anchor="middle" font-size="14" fill="#1F3B57">ingresarMonto(monto)</text>
+<line x1="393" y1="246" x2="157" y2="246" stroke="#1F3B57" stroke-width="1.6" stroke-dasharray="7,5" marker-end="url(#o)"/>
+<text x="275.0" y="238" text-anchor="middle" font-size="14" font-style="italic" fill="#1F3B57">¿Confirma la extracción?</text>
+<line x1="157" y1="302" x2="393" y2="302" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="275.0" y="294" text-anchor="middle" font-size="14" fill="#1F3B57">confirmar()</text>
+<line x1="407" y1="358" x2="893" y2="358" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="650.0" y="350" text-anchor="middle" font-size="14" fill="#1F3B57">new Extraccion(sesion, monto)</text>
+<line x1="407" y1="414" x2="893" y2="414" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="650.0" y="406" text-anchor="middle" font-size="14" fill="#1F3B57">Ejecutar()</text>
+<path d="M907,460 L955,460 L955,482 L908,482" fill="none" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<rect x="960" y="460" width="150.8" height="20" fill="white"/>
+<text x="964" y="475" font-size="14" fill="#1F3B57">EsMultiploDe100()</text>
+<line x1="907" y1="526" x2="1143" y2="526" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="1025.0" y="518" text-anchor="middle" font-size="14" fill="#1F3B57">EstaActiva()</text>
+<line x1="1143" y1="582" x2="907" y2="582" stroke="#1F3B57" stroke-width="1.6" stroke-dasharray="7,5" marker-end="url(#o)"/>
+<text x="1025.0" y="574" text-anchor="middle" font-size="14" font-style="italic" fill="#1F3B57">true</text>
+<line x1="907" y1="638" x2="1393" y2="638" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="1150.0" y="630" text-anchor="middle" font-size="14" fill="#1F3B57">Extraer(idCuenta, idTarjeta, idCajero, monto)</text>
+<line x1="1393" y1="694" x2="907" y2="694" stroke="#1F3B57" stroke-width="1.6" stroke-dasharray="7,5" marker-end="url(#o)"/>
+<text x="1150.0" y="686" text-anchor="middle" font-size="14" font-style="italic" fill="#1F3B57">resultado, saldo, comprobante</text>
+<line x1="907" y1="750" x2="1143" y2="750" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="1025.0" y="742" text-anchor="middle" font-size="14" fill="#1F3B57">ActualizarSaldo(saldo)</text>
+<line x1="893" y1="806" x2="657" y2="806" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<text x="775.0" y="798" text-anchor="middle" font-size="14" fill="#1F3B57">AgregarOperacion(this)</text>
+<line x1="893" y1="862" x2="407" y2="862" stroke="#1F3B57" stroke-width="1.6" stroke-dasharray="7,5" marker-end="url(#o)"/>
+<text x="650.0" y="854" text-anchor="middle" font-size="14" font-style="italic" fill="#1F3B57">true</text>
+<line x1="393" y1="918" x2="157" y2="918" stroke="#1F3B57" stroke-width="1.6" stroke-dasharray="7,5" marker-end="url(#o)"/>
+<text x="275.0" y="910" text-anchor="middle" font-size="14" font-style="italic" fill="#1F3B57">Retire su dinero</text>
+<line x1="893" y1="974" x2="407" y2="974" stroke="#1F3B57" stroke-width="1.6" stroke-dasharray="7,5" marker-end="url(#o)"/>
+<text x="650.0" y="966" text-anchor="middle" font-size="14" font-style="italic" fill="#1F3B57">false (código de rechazo)</text>
+<line x1="393" y1="1030" x2="157" y2="1030" stroke="#1F3B57" stroke-width="1.6" stroke-dasharray="7,5" marker-end="url(#o)"/>
+<text x="275.0" y="1022" text-anchor="middle" font-size="14" font-style="italic" fill="#1F3B57">Mensaje de rechazo</text>
+<text x="775.0" y="1102" text-anchor="middle" font-size="13" font-style="italic" fill="#595959">Flecha sólida = mensaje sincrónico · línea discontinua = retorno (nombre en cursiva) · rectángulo angosto = foco de control</text>
+</svg>

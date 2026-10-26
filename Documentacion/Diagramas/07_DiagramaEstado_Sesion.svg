@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1300" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="1440" height="1300" fill="white"/>
+<defs><marker id="f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1F3B57"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9B2C2C"/></marker></defs>
+<text x="720.0" y="36" text-anchor="middle" font-size="21" font-weight="700" fill="#1F3B57">Diagrama de Estado — Sesión del Cajero</text>
+<circle cx="690" cy="80" r="13" fill="#1F3B57"/>
+<rect x="540.0" y="140" width="300" height="76" rx="18" fill="#E8F3F1" stroke="#1F3B57" stroke-width="2.2"/>
+<text x="690" y="169" text-anchor="middle" font-size="17" font-weight="700" fill="#1F3B57">Iniciada</text>
+<line x1="540.0" y1="182" x2="840.0" y2="182" stroke="#1F3B57" stroke-width="1.4"/>
+<text x="554.0" y="202" font-size="13" fill="#1F3B57">entry / registrar fecha de inicio</text>
+<rect x="540.0" y="300" width="300" height="96" rx="18" fill="#E8F3F1" stroke="#1F3B57" stroke-width="2.2"/>
+<text x="690" y="329" text-anchor="middle" font-size="17" font-weight="700" fill="#1F3B57">Validando</text>
+<line x1="540.0" y1="342" x2="840.0" y2="342" stroke="#1F3B57" stroke-width="1.4"/>
+<text x="554.0" y="362" font-size="13" fill="#1F3B57">do / Sucursal: ObtenerDatosLogin()</text>
+<text x="554.0" y="382" font-size="13" fill="#1F3B57">do / controlar bloqueo y vencimiento</text>
+<rect x="540.0" y="490" width="300" height="96" rx="18" fill="#E8F3F1" stroke="#1F3B57" stroke-width="2.2"/>
+<text x="690" y="519" text-anchor="middle" font-size="17" font-weight="700" fill="#1F3B57">Autenticando</text>
+<line x1="540.0" y1="532" x2="840.0" y2="532" stroke="#1F3B57" stroke-width="1.4"/>
+<text x="554.0" y="552" font-size="13" fill="#1F3B57">do / pedir PIN</text>
+<text x="554.0" y="572" font-size="13" fill="#1F3B57">do / Red Central: ValidarPIN(hash)</text>
+<rect x="540.0" y="700" width="300" height="96" rx="18" fill="#E8F3F1" stroke="#1F3B57" stroke-width="2.2"/>
+<text x="690" y="729" text-anchor="middle" font-size="17" font-weight="700" fill="#1F3B57">Operando</text>
+<line x1="540.0" y1="742" x2="840.0" y2="742" stroke="#1F3B57" stroke-width="1.4"/>
+<text x="554.0" y="762" font-size="13" fill="#1F3B57">entry / cargar cliente y cuenta</text>
+<text x="554.0" y="782" font-size="13" fill="#1F3B57">do / mostrar menú de operaciones</text>
+<rect x="540.0" y="920" width="300" height="96" rx="18" fill="#E8F3F1" stroke="#1F3B57" stroke-width="2.2"/>
+<text x="690" y="949" text-anchor="middle" font-size="17" font-weight="700" fill="#1F3B57">Cerrando</text>
+<line x1="540.0" y1="962" x2="840.0" y2="962" stroke="#1F3B57" stroke-width="1.4"/>
+<text x="554.0" y="982" font-size="13" fill="#1F3B57">do / emitir ticket (opcional)</text>
+<text x="554.0" y="1002" font-size="13" fill="#1F3B57">do / devolver tarjeta</text>
+<rect x="540.0" y="1090" width="300" height="76" rx="18" fill="#E8F3F1" stroke="#1F3B57" stroke-width="2.2"/>
+<text x="690" y="1119" text-anchor="middle" font-size="17" font-weight="700" fill="#1F3B57">Cerrada</text>
+<line x1="540.0" y1="1132" x2="840.0" y2="1132" stroke="#1F3B57" stroke-width="1.4"/>
+<text x="554.0" y="1152" font-size="13" fill="#1F3B57">entry / borrar datos de la sesión</text>
+<path d="M 690,93 L 690,140" fill="none" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<rect x="700" y="104.5" width="263.2" height="18.5" fill="white"/>
+<text x="702" y="118" text-anchor="start" font-size="13.5" fill="#1F3B57">tarjeta insertada / new Sesion()</text>
+<path d="M 690,216 L 690,300" fill="none" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<rect x="700" y="249.5" width="174.1" height="18.5" fill="white"/>
+<text x="702" y="263.0" text-anchor="start" font-size="13.5" fill="#1F3B57">IniciarSesion(numero)</text>
+<path d="M 690,396 L 690,490" fill="none" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<rect x="700" y="434.5" width="133.6" height="18.5" fill="white"/>
+<text x="702" y="448.0" text-anchor="start" font-size="13.5" fill="#1F3B57">[tarjeta válida]</text>
+<path d="M 690,586 L 690,700" fill="none" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<rect x="700" y="626.5" width="247.0" height="18.5" fill="white"/>
+<text x="702" y="640.0" text-anchor="start" font-size="13.5" fill="#1F3B57">Autenticar(pin) [PIN correcto]</text>
+<rect x="700" y="645.5" width="174.1" height="18.5" fill="white"/>
+<text x="702" y="659.0" text-anchor="start" font-size="13.5" fill="#1F3B57">/ ReiniciarIntentos()</text>
+<path d="M 690,796 L 690,920" fill="none" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<rect x="700" y="841.5" width="93.1" height="18.5" fill="white"/>
+<text x="702" y="855.0" text-anchor="start" font-size="13.5" fill="#1F3B57">Finalizar ó</text>
+<rect x="700" y="860.5" width="174.1" height="18.5" fill="white"/>
+<text x="702" y="874.0" text-anchor="start" font-size="13.5" fill="#1F3B57">¿otra operación? = No</text>
+<path d="M 690,1016 L 690,1090" fill="none" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<rect x="700" y="1044.5" width="222.7" height="18.5" fill="white"/>
+<text x="702" y="1058.0" text-anchor="start" font-size="13.5" fill="#1F3B57">tarjeta retirada / Cerrar()</text>
+<path d="M 690,1166 L 690,1190" fill="none" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<circle cx="690" cy="1206" r="15" fill="white" stroke="#1F3B57" stroke-width="2.5"/><circle cx="690" cy="1206" r="9" fill="#1F3B57"/>
+<path d="M 840.0,504 L 900.0,504 L 900.0,572 L 842.0,572" fill="none" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<rect x="910.0" y="502.5" width="125.5" height="18.5" fill="white"/>
+<text x="912.0" y="516" text-anchor="start" font-size="13.5" fill="#1F3B57">Autenticar(pin)</text>
+<rect x="910.0" y="521.5" width="279.4" height="18.5" fill="white"/>
+<text x="912.0" y="535" text-anchor="start" font-size="13.5" fill="#1F3B57">[PIN incorrecto y quedan intentos]</text>
+<rect x="910.0" y="540.5" width="222.7" height="18.5" fill="white"/>
+<text x="912.0" y="554" text-anchor="start" font-size="13.5" fill="#1F3B57">/ RegistrarIntentoFallido()</text>
+<rect x="910.0" y="559.5" width="4.0" height="18.5" fill="white"/>
+<text x="912.0" y="573" text-anchor="start" font-size="13.5" fill="#1F3B57"></text>
+<rect x="910.0" y="578.5" width="263.2" height="18.5" fill="white"/>
+<text x="912.0" y="592" text-anchor="start" font-size="13.5" fill="#1F3B57">Autenticar(pin) [PIN con formato</text>
+<rect x="910.0" y="597.5" width="279.4" height="18.5" fill="white"/>
+<text x="912.0" y="611" text-anchor="start" font-size="13.5" fill="#1F3B57">inválido] (no cuenta como intento)</text>
+<path d="M 840.0,714 L 900.0,714 L 900.0,782 L 842.0,782" fill="none" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
+<rect x="910.0" y="712.5" width="279.4" height="18.5" fill="white"/>
+<text x="912.0" y="726" text-anchor="start" font-size="13.5" fill="#1F3B57">Ejecutar() de Consulta, Extracción</text>
+<rect x="910.0" y="731.5" width="206.5" height="18.5" fill="white"/>
+<text x="912.0" y="745" text-anchor="start" font-size="13.5" fill="#1F3B57">o Transferencia [exitosa]</text>
+<rect x="910.0" y="750.5" width="166.0" height="18.5" fill="white"/>
+<text x="912.0" y="764" text-anchor="start" font-size="13.5" fill="#1F3B57">/ AgregarOperacion()</text>
+<rect x="910.0" y="769.5" width="4.0" height="18.5" fill="white"/>
+<text x="912.0" y="783" text-anchor="start" font-size="13.5" fill="#1F3B57"></text>
+<rect x="910.0" y="788.5" width="230.79999999999998" height="18.5" fill="white"/>
+<text x="912.0" y="802" text-anchor="start" font-size="13.5" fill="#1F3B57">[rechazada] / mostrar motivo</text>
+<path d="M 540.0,348.0 L 230,348.0 L 230,942 L 540.0,942" fill="none" stroke="#9B2C2C" stroke-width="1.8" stroke-dasharray="7,5" marker-end="url(#r)"/>
+<rect x="266.8" y="306.5" width="263.2" height="18.5" fill="white"/>
+<text x="528.0" y="320.0" text-anchor="end" font-size="13.5" fill="#9B2C2C">[tarjeta inexistente, bloqueada,</text>
+<rect x="380.20000000000005" y="325.5" width="149.79999999999998" height="18.5" fill="white"/>
+<text x="528.0" y="339.0" text-anchor="end" font-size="13.5" fill="#9B2C2C">vencida o anulada]</text>
+<path d="M 540.0,538.0 L 285,538.0 L 285,970 L 540.0,970" fill="none" stroke="#9B2C2C" stroke-width="1.8" stroke-dasharray="7,5" marker-end="url(#r)"/>
+<rect x="258.7" y="478.5" width="271.3" height="18.5" fill="white"/>
+<text x="528.0" y="492.0" text-anchor="end" font-size="13.5" fill="#9B2C2C">[3er PIN incorrecto] / Bloquear()</text>
+<rect x="445.0" y="497.5" width="85.0" height="18.5" fill="white"/>
+<text x="528.0" y="511.0" text-anchor="end" font-size="13.5" fill="#9B2C2C">ó cancelar</text>
+<text x="720.0" y="1284" text-anchor="middle" font-size="13" font-style="italic" fill="#595959">evento [guarda] / acción · entry = al entrar al estado · do = mientras está en el estado · línea roja punteada = fin anticipado de la sesión</text>
+</svg>

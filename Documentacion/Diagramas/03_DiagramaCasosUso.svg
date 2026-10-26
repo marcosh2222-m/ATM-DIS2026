@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1480 1060" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="1480" height="1060" fill="white"/>
+<defs><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" orient="auto"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#1F3B57" stroke-width="1.5"/></marker></defs>
+<text x="740.0" y="34" text-anchor="middle" font-size="21" font-weight="700" fill="#1F3B57">Diagrama de Casos de Uso — Cajero Automático</text>
+<rect x="250" y="60" width="950" height="950" fill="none" stroke="#1F3B57" stroke-width="2"/>
+<text x="264" y="86" font-size="16" font-weight="700" fill="#1F3B57">Sistema Cajero Automático</text>
+<ellipse cx="500" cy="200" rx="128" ry="40" fill="#E8F3F1" stroke="#1F3B57" stroke-width="2.2"/>
+<text x="500" y="196" text-anchor="middle" font-size="15" font-weight="700" fill="#1F3B57">Autenticar</text>
+<text x="500" y="214" text-anchor="middle" font-size="15" font-weight="700" fill="#1F3B57">Usuario</text>
+<ellipse cx="500" cy="420" rx="128" ry="40" fill="#E8F3F1" stroke="#1F3B57" stroke-width="2.2"/>
+<text x="500" y="416" text-anchor="middle" font-size="15" font-weight="700" fill="#1F3B57">Consultar</text>
+<text x="500" y="434" text-anchor="middle" font-size="15" font-weight="700" fill="#1F3B57">Saldo</text>
+<ellipse cx="500" cy="550" rx="128" ry="40" fill="#E8F3F1" stroke="#1F3B57" stroke-width="2.2"/>
+<text x="500" y="546" text-anchor="middle" font-size="15" font-weight="700" fill="#1F3B57">Extraer</text>
+<text x="500" y="564" text-anchor="middle" font-size="15" font-weight="700" fill="#1F3B57">Efectivo</text>
+<ellipse cx="500" cy="680" rx="128" ry="40" fill="#E8F3F1" stroke="#1F3B57" stroke-width="2.2"/>
+<text x="500" y="676" text-anchor="middle" font-size="15" font-weight="700" fill="#1F3B57">Realizar</text>
+<text x="500" y="694" text-anchor="middle" font-size="15" font-weight="700" fill="#1F3B57">Transferencia</text>
+<ellipse cx="500" cy="900" rx="128" ry="40" fill="#E8F3F1" stroke="#1F3B57" stroke-width="2.2"/>
+<text x="500" y="896" text-anchor="middle" font-size="15" font-weight="700" fill="#1F3B57">Emitir Ticket y</text>
+<text x="500" y="914" text-anchor="middle" font-size="15" font-weight="700" fill="#1F3B57">Devolver Tarjeta</text>
+<ellipse cx="950" cy="130" rx="128" ry="40" fill="#FFFFFF" stroke="#1F3B57" stroke-width="1.6"/>
+<text x="950" y="126" text-anchor="middle" font-size="15" font-weight="400" fill="#1F3B57">Validar</text>
+<text x="950" y="144" text-anchor="middle" font-size="15" font-weight="400" fill="#1F3B57">Tarjeta</text>
+<ellipse cx="950" cy="270" rx="128" ry="40" fill="#FFFFFF" stroke="#1F3B57" stroke-width="1.6"/>
+<text x="950" y="275" text-anchor="middle" font-size="15" font-weight="400" fill="#1F3B57">Validar PIN</text>
+<ellipse cx="950" cy="410" rx="128" ry="40" fill="#FFFFFF" stroke="#1F3B57" stroke-width="1.6"/>
+<text x="950" y="406" text-anchor="middle" font-size="15" font-weight="400" fill="#1F3B57">Bloquear</text>
+<text x="950" y="424" text-anchor="middle" font-size="15" font-weight="400" fill="#1F3B57">Tarjeta</text>
+<ellipse cx="950" cy="900" rx="128" ry="40" fill="#FFFFFF" stroke="#1F3B57" stroke-width="1.6"/>
+<text x="950" y="896" text-anchor="middle" font-size="15" font-weight="400" fill="#1F3B57">Imprimir</text>
+<text x="950" y="914" text-anchor="middle" font-size="15" font-weight="400" fill="#1F3B57">Ticket</text>
+<circle cx="110" cy="514" r="14" fill="white" stroke="#1F3B57" stroke-width="2.2"/>
+<path d="M110,528 L110,566 M86,540 L134,540 M110,566 L92,594 M110,566 L128,594" stroke="#1F3B57" stroke-width="2.2" fill="none"/>
+<text x="110" y="618" text-anchor="middle" font-size="16" font-weight="700" fill="#1F3B57">Cliente</text>
+<circle cx="1340" cy="184" r="14" fill="white" stroke="#1F3B57" stroke-width="2.2"/>
+<path d="M1340,198 L1340,236 M1316,210 L1364,210 M1340,236 L1322,264 M1340,236 L1358,264" stroke="#1F3B57" stroke-width="2.2" fill="none"/>
+<text x="1340" y="288" text-anchor="middle" font-size="16" font-weight="700" fill="#1F3B57">Sucursal</text>
+<circle cx="1340" cy="564" r="14" fill="white" stroke="#1F3B57" stroke-width="2.2"/>
+<path d="M1340,578 L1340,616 M1316,590 L1364,590 M1340,616 L1322,644 M1340,616 L1358,644" stroke="#1F3B57" stroke-width="2.2" fill="none"/>
+<text x="1340" y="668" text-anchor="middle" font-size="16" font-weight="700" fill="#1F3B57">Red Central</text>
+<line x1="142" y1="548" x2="460.8" y2="238.1" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="142" y1="548" x2="415.8" y2="450.1" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="142" y1="548" x2="372.0" y2="549.3" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="142" y1="548" x2="417.2" y2="649.5" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="142" y1="548" x2="461.2" y2="861.9" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="1308" y1="218" x2="1050.6" y2="154.7" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="1308" y1="598" x2="991.3" y2="307.9" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="1308" y1="598" x2="1015.5" y2="444.4" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="1308" y1="598" x2="604.6" y2="443.0" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="1308" y1="598" x2="625.7" y2="557.5" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="1308" y1="598" x2="621.7" y2="667.6" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="614.6" y1="182.2" x2="835.4" y2="147.8" stroke="#1F3B57" stroke-width="1.6" stroke-dasharray="8,5" marker-end="url(#o)"/>
+<rect x="685.4" y="143.0" width="79.2" height="19" fill="white"/>
+<text x="725.0" y="157.0" text-anchor="middle" font-size="14" font-style="italic" fill="#1F3B57">«include»</text>
+<line x1="614.6" y1="217.8" x2="835.4" y2="252.2" stroke="#1F3B57" stroke-width="1.6" stroke-dasharray="8,5" marker-end="url(#o)"/>
+<rect x="685.4" y="217.0" width="79.2" height="19" fill="white"/>
+<text x="725.0" y="231.0" text-anchor="middle" font-size="14" font-style="italic" fill="#1F3B57">«include»</text>
+<line x1="878.8" y1="376.8" x2="571.2" y2="233.2" stroke="#1F3B57" stroke-width="1.6" stroke-dasharray="8,5" marker-end="url(#o)"/>
+<rect x="689.8" y="305.0" width="70.4" height="19" fill="white"/>
+<text x="725.0" y="319.0" text-anchor="middle" font-size="14" font-style="italic" fill="#1F3B57">«extend»</text>
+<rect x="645.0" y="323.0" width="160" height="18" fill="white"/>
+<text x="725.0" y="337.0" text-anchor="middle" font-size="12.5" fill="#595959">[3er PIN incorrecto]</text>
+<line x1="822.0" y1="900.0" x2="628.0" y2="900.0" stroke="#1F3B57" stroke-width="1.6" stroke-dasharray="8,5" marker-end="url(#o)"/>
+<rect x="689.8" y="856.0" width="70.4" height="19" fill="white"/>
+<text x="725.0" y="870.0" text-anchor="middle" font-size="14" font-style="italic" fill="#1F3B57">«extend»</text>
+<rect x="617.0" y="874.0" width="216" height="18" fill="white"/>
+<text x="725.0" y="888.0" text-anchor="middle" font-size="12.5" fill="#595959">[el Cliente pide el ticket]</text>
+<path d="M760,720 L1074,720 L1090,736 L1090,784 L760,784 Z" fill="#FFF8E1" stroke="#1F3B57" stroke-width="1.4"/>
+<path d="M1074,720 L1074,736 L1090,736" fill="none" stroke="#1F3B57" stroke-width="1.4"/>
+<text x="772" y="746" font-size="13" fill="#1F3B57">Precondición de Consultar, Extraer y</text>
+<text x="772" y="766" font-size="13" fill="#1F3B57">Transferir: Autenticar Usuario exitoso.</text>
+<line x1="760" y1="752" x2="622" y2="690" stroke="#1F3B57" stroke-width="1.2" stroke-dasharray="3,4"/>
+<text x="740.0" y="1044" text-anchor="middle" font-size="13.5" font-style="italic" fill="#595959">Elipse con relleno = caso de uso principal · «include» = siempre se ejecuta · «extend» = opcional, solo si se cumple la condición</text>
+</svg>

@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 1060" font-family="DejaVu Sans, Arial, sans-serif"><rect width="1700" height="1060" fill="white"/>
+<text x="850.0" y="38" text-anchor="middle" font-size="22" font-weight="700" fill="#1F3B57">Diagrama Entidad-Relación — Base de datos CajeroATM (MySQL)</text>
+<rect x="40" y="80" width="330" height="150" fill="white" stroke="#1F3B57" stroke-width="2"/>
+<rect x="40" y="80" width="330" height="42" fill="#2E7D74" stroke="#1F3B57" stroke-width="2"/>
+<text x="205.0" y="108" text-anchor="middle" font-size="18" font-weight="700" fill="white">Sucursal</text>
+<text x="50" y="146" font-size="12" font-weight="700" fill="#9B2C2C">PK</text>
+<text x="82" y="146" font-size="13.5" fill="#1F3B57" font-weight="700">IdSucursal</text>
+<text x="360" y="146" text-anchor="end" font-size="12" fill="#475569">INT</text>
+<text x="82" y="170" font-size="13.5" fill="#1F3B57">Nombre</text>
+<text x="360" y="170" text-anchor="end" font-size="12" fill="#475569">VARCHAR(100)</text>
+<text x="82" y="194" font-size="13.5" fill="#1F3B57">Direccion</text>
+<text x="360" y="194" text-anchor="end" font-size="12" fill="#475569">VARCHAR(200)</text>
+<text x="82" y="218" font-size="13.5" fill="#1F3B57">CodigoSucursal</text>
+<text x="360" y="218" text-anchor="end" font-size="12" fill="#475569">VARCHAR(10) UQ</text>
+<rect x="420" y="80" width="330" height="222" fill="white" stroke="#1F3B57" stroke-width="2"/>
+<rect x="420" y="80" width="330" height="42" fill="#2E7D74" stroke="#1F3B57" stroke-width="2"/>
+<text x="585.0" y="108" text-anchor="middle" font-size="18" font-weight="700" fill="white">Cliente</text>
+<text x="430" y="146" font-size="12" font-weight="700" fill="#9B2C2C">PK</text>
+<text x="462" y="146" font-size="13.5" fill="#1F3B57" font-weight="700">IdCliente</text>
+<text x="740" y="146" text-anchor="end" font-size="12" fill="#475569">INT</text>
+<text x="462" y="170" font-size="13.5" fill="#1F3B57">Nombre</text>
+<text x="740" y="170" text-anchor="end" font-size="12" fill="#475569">VARCHAR(80)</text>
+<text x="462" y="194" font-size="13.5" fill="#1F3B57">Apellido</text>
+<text x="740" y="194" text-anchor="end" font-size="12" fill="#475569">VARCHAR(80)</text>
+<text x="462" y="218" font-size="13.5" fill="#1F3B57">DNI</text>
+<text x="740" y="218" text-anchor="end" font-size="12" fill="#475569">VARCHAR(15) UQ</text>
+<text x="462" y="242" font-size="13.5" fill="#1F3B57">Email</text>
+<text x="740" y="242" text-anchor="end" font-size="12" fill="#475569">VARCHAR(120)</text>
+<text x="462" y="266" font-size="13.5" fill="#1F3B57">Telefono</text>
+<text x="740" y="266" text-anchor="end" font-size="12" fill="#475569">VARCHAR(20)</text>
+<text x="462" y="290" font-size="13.5" fill="#1F3B57">FechaAlta</text>
+<text x="740" y="290" text-anchor="end" font-size="12" fill="#475569">DATETIME</text>
+<rect x="870" y="80" width="330" height="222" fill="white" stroke="#1F3B57" stroke-width="2"/>
+<rect x="870" y="80" width="330" height="42" fill="#2E7D74" stroke="#1F3B57" stroke-width="2"/>
+<text x="1035.0" y="108" text-anchor="middle" font-size="18" font-weight="700" fill="white">Cuenta</text>
+<text x="880" y="146" font-size="12" font-weight="700" fill="#9B2C2C">PK</text>
+<text x="912" y="146" font-size="13.5" fill="#1F3B57" font-weight="700">IdCuenta</text>
+<text x="1190" y="146" text-anchor="end" font-size="12" fill="#475569">INT</text>
+<text x="880" y="170" font-size="12" font-weight="700" fill="#1D4ED8">FK</text>
+<text x="912" y="170" font-size="13.5" fill="#1F3B57">IdCliente</text>
+<text x="1190" y="170" text-anchor="end" font-size="12" fill="#475569">INT</text>
+<text x="912" y="194" font-size="13.5" fill="#1F3B57">NumeroCuenta</text>
+<text x="1190" y="194" text-anchor="end" font-size="12" fill="#475569">VARCHAR(20) UQ</text>
+<text x="912" y="218" font-size="13.5" fill="#1F3B57">Saldo</text>
+<text x="1190" y="218" text-anchor="end" font-size="12" fill="#475569">DECIMAL(14,2)</text>
+<text x="912" y="242" font-size="13.5" fill="#1F3B57">TipoCuenta</text>
+<text x="1190" y="242" text-anchor="end" font-size="12" fill="#475569">VARCHAR(20)</text>
+<text x="912" y="266" font-size="13.5" fill="#1F3B57">Estado</text>
+<text x="1190" y="266" text-anchor="end" font-size="12" fill="#475569">VARCHAR(20)</text>
+<text x="912" y="290" font-size="13.5" fill="#1F3B57">FechaAlta</text>
+<text x="1190" y="290" text-anchor="end" font-size="12" fill="#475569">DATETIME</text>
+<rect x="1320" y="80" width="330" height="246" fill="white" stroke="#1F3B57" stroke-width="2"/>
+<rect x="1320" y="80" width="330" height="42" fill="#2E7D74" stroke="#1F3B57" stroke-width="2"/>
+<text x="1485.0" y="108" text-anchor="middle" font-size="18" font-weight="700" fill="white">Tarjeta</text>
+<text x="1330" y="146" font-size="12" font-weight="700" fill="#9B2C2C">PK</text>
+<text x="1362" y="146" font-size="13.5" fill="#1F3B57" font-weight="700">IdTarjeta</text>
+<text x="1640" y="146" text-anchor="end" font-size="12" fill="#475569">INT</text>
+<text x="1330" y="170" font-size="12" font-weight="700" fill="#1D4ED8">FK</text>
+<text x="1362" y="170" font-size="13.5" fill="#1F3B57">IdCuenta</text>
+<text x="1640" y="170" text-anchor="end" font-size="12" fill="#475569">INT</text>
+<text x="1362" y="194" font-size="13.5" fill="#1F3B57">NumeroTarjeta</text>
+<text x="1640" y="194" text-anchor="end" font-size="12" fill="#475569">VARCHAR(20) UQ</text>
+<text x="1362" y="218" font-size="13.5" fill="#1F3B57">PIN_Hash</text>
+<text x="1640" y="218" text-anchor="end" font-size="12" fill="#475569">VARBINARY(64)</text>
+<text x="1362" y="242" font-size="13.5" fill="#1F3B57">Salt</text>
+<text x="1640" y="242" text-anchor="end" font-size="12" fill="#475569">VARBINARY(32)</text>
+<text x="1362" y="266" font-size="13.5" fill="#1F3B57">FechaVencimiento</text>
+<text x="1640" y="266" text-anchor="end" font-size="12" fill="#475569">DATE</text>
+<text x="1362" y="290" font-size="13.5" fill="#1F3B57">IntentosFallidos</text>
+<text x="1640" y="290" text-anchor="end" font-size="12" fill="#475569">TINYINT</text>
+<text x="1362" y="314" font-size="13.5" fill="#1F3B57">Estado</text>
+<text x="1640" y="314" text-anchor="end" font-size="12" fill="#475569">VARCHAR(20)</text>
+<rect x="40" y="560" width="330" height="174" fill="white" stroke="#1F3B57" stroke-width="2"/>
+<rect x="40" y="560" width="330" height="42" fill="#2E7D74" stroke="#1F3B57" stroke-width="2"/>
+<text x="205.0" y="588" text-anchor="middle" font-size="18" font-weight="700" fill="white">Cajero</text>
+<text x="50" y="626" font-size="12" font-weight="700" fill="#9B2C2C">PK</text>
+<text x="82" y="626" font-size="13.5" fill="#1F3B57" font-weight="700">IdCajero</text>
+<text x="360" y="626" text-anchor="end" font-size="12" fill="#475569">INT</text>
+<text x="50" y="650" font-size="12" font-weight="700" fill="#1D4ED8">FK</text>
+<text x="82" y="650" font-size="13.5" fill="#1F3B57">IdSucursal</text>
+<text x="360" y="650" text-anchor="end" font-size="12" fill="#475569">INT</text>
+<text x="82" y="674" font-size="13.5" fill="#1F3B57">NumeroSerie</text>
+<text x="360" y="674" text-anchor="end" font-size="12" fill="#475569">VARCHAR(30) UQ</text>
+<text x="82" y="698" font-size="13.5" fill="#1F3B57">Ubicacion</text>
+<text x="360" y="698" text-anchor="end" font-size="12" fill="#475569">VARCHAR(150)</text>
+<text x="82" y="722" font-size="13.5" fill="#1F3B57">Estado</text>
+<text x="360" y="722" text-anchor="end" font-size="12" fill="#475569">VARCHAR(20)</text>
+<rect x="660" y="560" width="380" height="294" fill="white" stroke="#1F3B57" stroke-width="2"/>
+<rect x="660" y="560" width="380" height="42" fill="#2E7D74" stroke="#1F3B57" stroke-width="2"/>
+<text x="850.0" y="588" text-anchor="middle" font-size="18" font-weight="700" fill="white">Transaccion</text>
+<text x="670" y="626" font-size="12" font-weight="700" fill="#9B2C2C">PK</text>
+<text x="702" y="626" font-size="13.5" fill="#1F3B57" font-weight="700">IdTransaccion</text>
+<text x="1030" y="626" text-anchor="end" font-size="12" fill="#475569">INT</text>
+<text x="670" y="650" font-size="12" font-weight="700" fill="#1D4ED8">FK</text>
+<text x="702" y="650" font-size="13.5" fill="#1F3B57">IdTarjeta</text>
+<text x="1030" y="650" text-anchor="end" font-size="12" fill="#475569">INT</text>
+<text x="670" y="674" font-size="12" font-weight="700" fill="#1D4ED8">FK</text>
+<text x="702" y="674" font-size="13.5" fill="#1F3B57">IdCajero</text>
+<text x="1030" y="674" text-anchor="end" font-size="12" fill="#475569">INT</text>
+<text x="670" y="698" font-size="12" font-weight="700" fill="#1D4ED8">FK</text>
+<text x="702" y="698" font-size="13.5" fill="#1F3B57">IdTipoTransaccion</text>
+<text x="1030" y="698" text-anchor="end" font-size="12" fill="#475569">INT</text>
+<text x="670" y="722" font-size="12" font-weight="700" fill="#1D4ED8">FK</text>
+<text x="702" y="722" font-size="13.5" fill="#1F3B57">IdCuentaOrigen</text>
+<text x="1030" y="722" text-anchor="end" font-size="12" fill="#475569">INT</text>
+<text x="670" y="746" font-size="12" font-weight="700" fill="#1D4ED8">FK</text>
+<text x="702" y="746" font-size="13.5" fill="#1F3B57">IdCuentaDestino</text>
+<text x="1030" y="746" text-anchor="end" font-size="12" fill="#475569">INT NULL</text>
+<text x="702" y="770" font-size="13.5" fill="#1F3B57">Monto</text>
+<text x="1030" y="770" text-anchor="end" font-size="12" fill="#475569">DECIMAL(14,2)</text>
+<text x="702" y="794" font-size="13.5" fill="#1F3B57">Fecha</text>
+<text x="1030" y="794" text-anchor="end" font-size="12" fill="#475569">DATETIME</text>
+<text x="702" y="818" font-size="13.5" fill="#1F3B57">SaldoResultante</text>
+<text x="1030" y="818" text-anchor="end" font-size="12" fill="#475569">DECIMAL(14,2)</text>
+<text x="702" y="842" font-size="13.5" fill="#1F3B57">Estado</text>
+<text x="1030" y="842" text-anchor="end" font-size="12" fill="#475569">VARCHAR(20)</text>
+<rect x="1320" y="640" width="330" height="102" fill="white" stroke="#1F3B57" stroke-width="2"/>
+<rect x="1320" y="640" width="330" height="42" fill="#2E7D74" stroke="#1F3B57" stroke-width="2"/>
+<text x="1485.0" y="668" text-anchor="middle" font-size="18" font-weight="700" fill="white">TipoTransaccion</text>
+<text x="1330" y="706" font-size="12" font-weight="700" fill="#9B2C2C">PK</text>
+<text x="1362" y="706" font-size="13.5" fill="#1F3B57" font-weight="700">IdTipoTransaccion</text>
+<text x="1640" y="706" text-anchor="end" font-size="12" fill="#475569">INT</text>
+<text x="1362" y="730" font-size="13.5" fill="#1F3B57">Nombre</text>
+<text x="1640" y="730" text-anchor="end" font-size="12" fill="#475569">VARCHAR(30) UQ</text>
+<path d="M 205.0,230 L 205.0,560" fill="none" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="197.0" y1="242" x2="213.0" y2="242" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="197.0" y1="248" x2="213.0" y2="248" stroke="#1F3B57" stroke-width="1.8"/>
+<path d="M196.0,560 L205.0,544 L214.0,560" fill="none" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="197.0" y1="536" x2="213.0" y2="536" stroke="#1F3B57" stroke-width="1.8"/>
+<rect x="214.0" y="382.0" width="43.0" height="18" fill="white"/>
+<text x="217.0" y="395.0" text-anchor="start" font-size="13" font-style="italic" fill="#1F3B57">tiene</text>
+<path d="M 750,170 L 870,170" fill="none" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="762" y1="162" x2="762" y2="178" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="768" y1="162" x2="768" y2="178" stroke="#1F3B57" stroke-width="1.8"/>
+<path d="M870,161 L854,170 L870,179" fill="none" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="846" y1="162" x2="846" y2="178" stroke="#1F3B57" stroke-width="1.8"/>
+<rect x="758.9" y="145" width="102.2" height="18" fill="white"/>
+<text x="810.0" y="158" text-anchor="middle" font-size="13" font-style="italic" fill="#1F3B57">es titular de</text>
+<path d="M 1200,170 L 1320,170" fill="none" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="1212" y1="162" x2="1212" y2="178" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="1218" y1="162" x2="1218" y2="178" stroke="#1F3B57" stroke-width="1.8"/>
+<path d="M1320,161 L1304,170 L1320,179" fill="none" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="1296" y1="162" x2="1296" y2="178" stroke="#1F3B57" stroke-width="1.8"/>
+<rect x="1238.5" y="145" width="43.0" height="18" fill="white"/>
+<text x="1260.0" y="158" text-anchor="middle" font-size="13" font-style="italic" fill="#1F3B57">posee</text>
+<path d="M 370,640 L 660,640" fill="none" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="382" y1="632" x2="382" y2="648" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="388" y1="632" x2="388" y2="648" stroke="#1F3B57" stroke-width="1.8"/>
+<path d="M660,631 L644,640 L660,649" fill="none" stroke="#1F3B57" stroke-width="1.8"/>
+<circle cx="636" cy="640" r="6" fill="white" stroke="#1F3B57" stroke-width="1.8"/>
+<rect x="482.4" y="615" width="65.2" height="18" fill="white"/>
+<text x="515.0" y="628" text-anchor="middle" font-size="13" font-style="italic" fill="#1F3B57">registra</text>
+<path d="M 1320,700 L 1040,700" fill="none" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="1308" y1="692" x2="1308" y2="708" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="1302" y1="692" x2="1302" y2="708" stroke="#1F3B57" stroke-width="1.8"/>
+<path d="M1040,691 L1056,700 L1040,709" fill="none" stroke="#1F3B57" stroke-width="1.8"/>
+<circle cx="1064" cy="700" r="6" fill="white" stroke="#1F3B57" stroke-width="1.8"/>
+<rect x="1143.7" y="675" width="72.60000000000001" height="18" fill="white"/>
+<text x="1180.0" y="688" text-anchor="middle" font-size="13" font-style="italic" fill="#1F3B57">clasifica</text>
+<path d="M 1485.0,326 L 1485.0,600 L 1040,600" fill="none" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="1477.0" y1="338" x2="1493.0" y2="338" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="1477.0" y1="344" x2="1493.0" y2="344" stroke="#1F3B57" stroke-width="1.8"/>
+<path d="M1040,591 L1056,600 L1040,609" fill="none" stroke="#1F3B57" stroke-width="1.8"/>
+<circle cx="1064" cy="600" r="6" fill="white" stroke="#1F3B57" stroke-width="1.8"/>
+<rect x="1492.0" y="480.0" width="72.60000000000001" height="18" fill="white"/>
+<text x="1495.0" y="493.0" text-anchor="start" font-size="13" font-style="italic" fill="#1F3B57">se usa en</text>
+<path d="M 909.6,302 L 909.6,560" fill="none" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="901.6" y1="314" x2="917.6" y2="314" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="901.6" y1="320" x2="917.6" y2="320" stroke="#1F3B57" stroke-width="1.8"/>
+<path d="M900.6,560 L909.6,544 L918.6,560" fill="none" stroke="#1F3B57" stroke-width="1.8"/>
+<circle cx="909.6" cy="536" r="6" fill="white" stroke="#1F3B57" stroke-width="1.8"/>
+<rect x="852.2" y="418.0" width="50.400000000000006" height="18" fill="white"/>
+<text x="899.6" y="431.0" text-anchor="end" font-size="13" font-style="italic" fill="#1F3B57">origen</text>
+<path d="M 1008.6,302 L 1008.6,560" fill="none" stroke="#1F3B57" stroke-width="1.8" stroke-dasharray="7,4"/>
+<line x1="1000.6" y1="314" x2="1016.6" y2="314" stroke="#1F3B57" stroke-width="1.8"/>
+<circle cx="1008.6" cy="326" r="6" fill="white" stroke="#1F3B57" stroke-width="1.8"/>
+<path d="M999.6,560 L1008.6,544 L1017.6,560" fill="none" stroke="#1F3B57" stroke-width="1.8"/>
+<circle cx="1008.6" cy="536" r="6" fill="white" stroke="#1F3B57" stroke-width="1.8"/>
+<rect x="1015.6" y="418.0" width="220.60000000000002" height="18" fill="white"/>
+<text x="1018.6" y="431.0" text-anchor="start" font-size="13" font-style="italic" fill="#1F3B57">destino (solo transferencias)</text>
+<rect x="40" y="880" width="560" height="150" rx="8" fill="white" stroke="#CBD5E1"/>
+<text x="56" y="906" font-size="15" font-weight="700" fill="#475569">Notación (pata de gallo)</text>
+<path d="M 70,935 L 150,935" fill="none" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="138" y1="927" x2="138" y2="943" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="132" y1="927" x2="132" y2="943" stroke="#1F3B57" stroke-width="1.8"/>
+<text x="170" y="940" font-size="13" fill="#475569">uno y solo uno</text>
+<path d="M 70,965 L 150,965" fill="none" stroke="#1F3B57" stroke-width="1.8"/>
+<path d="M150,956 L134,965 L150,974" fill="none" stroke="#1F3B57" stroke-width="1.8"/>
+<line x1="126" y1="957" x2="126" y2="973" stroke="#1F3B57" stroke-width="1.8"/>
+<text x="170" y="970" font-size="13" fill="#475569">uno o muchos</text>
+<path d="M 70,995 L 150,995" fill="none" stroke="#1F3B57" stroke-width="1.8"/>
+<path d="M150,986 L134,995 L150,1004" fill="none" stroke="#1F3B57" stroke-width="1.8"/>
+<circle cx="126" cy="995" r="6" fill="white" stroke="#1F3B57" stroke-width="1.8"/>
+<text x="170" y="1000" font-size="13" fill="#475569">cero o muchos</text>
+<text x="370" y="940" font-size="13" fill="#9B2C2C" font-weight="700">PK</text><text x="400" y="940" font-size="13" fill="#475569">clave primaria</text>
+<text x="370" y="970" font-size="13" fill="#1D4ED8" font-weight="700">FK</text><text x="400" y="970" font-size="13" fill="#475569">clave foránea</text>
+<text x="370" y="1000" font-size="13" fill="#475569" font-weight="700">UQ</text><text x="400" y="1000" font-size="13" fill="#475569">valor único</text>
+</svg>

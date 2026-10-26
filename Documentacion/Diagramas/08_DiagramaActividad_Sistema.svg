@@ -1,0 +1,286 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1640 3290" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="1640" height="3290" fill="white"/>
+<defs>
+<marker id="n" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1A3A6B"/></marker>
+<marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400E"/></marker>
+<marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#065F46"/></marker>
+</defs>
+<rect x="20" y="60" width="310" height="3210" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+<rect x="20" y="60" width="310" height="40" fill="white" stroke="#BFDBFE" stroke-width="1.5"/>
+<text x="175.0" y="87" text-anchor="middle" font-size="18" font-weight="700" fill="#1A3A6B">Cliente</text>
+<rect x="330" y="60" width="720" height="3210" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1.5"/>
+<rect x="330" y="60" width="720" height="40" fill="white" stroke="#BBF7D0" stroke-width="1.5"/>
+<text x="690.0" y="87" text-anchor="middle" font-size="18" font-weight="700" fill="#065F46">Cajero (sistema)</text>
+<rect x="1050" y="60" width="250" height="3210" fill="#F5F3FF" stroke="#DDD6FE" stroke-width="1.5"/>
+<rect x="1050" y="60" width="250" height="40" fill="white" stroke="#DDD6FE" stroke-width="1.5"/>
+<text x="1175.0" y="87" text-anchor="middle" font-size="18" font-weight="700" fill="#4C1D95">Sucursal</text>
+<rect x="1300" y="60" width="320" height="3210" fill="#FDF4FF" stroke="#F5D0FE" stroke-width="1.5"/>
+<rect x="1300" y="60" width="320" height="40" fill="white" stroke="#F5D0FE" stroke-width="1.5"/>
+<text x="1460.0" y="87" text-anchor="middle" font-size="18" font-weight="700" fill="#701A75">Red Central</text>
+<text x="820.0" y="36" text-anchor="middle" font-size="22" font-weight="700" fill="#1A3A6B">Diagrama de Actividad — Sistema Cajero Automático (completo)</text>
+<circle cx="690" cy="110" r="14" fill="#1A3A6B"/>
+<rect x="575.0" y="142.0" width="230" height="66" rx="20" fill="#D1FAE5" stroke="#065F46" stroke-width="1.6"/>
+<text x="690" y="170" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">Verificar conexión</text>
+<text x="690" y="190" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">con la base de datos</text>
+<path d="M 690.0,124.0 L 690.0,142.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<polygon points="690,223 790,255 690,287 590,255" fill="white" stroke="#1A3A6B" stroke-width="1.8"/>
+<text x="690" y="260" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1A3A6B">¿Conexión OK?</text>
+<path d="M 690.0,208.0 L 690.0,223.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<rect x="840.0" y="222.0" width="180" height="66" rx="20" fill="#D1FAE5" stroke="#065F46" stroke-width="1.6"/>
+<text x="930" y="250" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">Mostrar «Fuera</text>
+<text x="930" y="270" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">de servicio»</text>
+<path d="M 790.0,255.0 L 840.0,255.0" fill="none" stroke="#92400E" stroke-width="1.7" marker-end="url(#r)"/>
+<rect x="800.8" y="234" width="36.4" height="18" fill="white" opacity="0.92"/>
+<text x="818" y="247" text-anchor="middle" font-size="13" font-weight="700" fill="#92400E">[no]</text>
+<circle cx="930" cy="335" r="15" fill="white" stroke="#1A3A6B" stroke-width="2.5"/><circle cx="930" cy="335" r="9" fill="#1A3A6B"/>
+<path d="M 930.0,288.0 L 930.0,318.0" fill="none" stroke="#92400E" stroke-width="1.7" marker-end="url(#r)"/>
+<rect x="575.0" y="312.0" width="230" height="66" rx="20" fill="#D1FAE5" stroke="#065F46" stroke-width="2.2"/>
+<text x="690" y="340" text-anchor="middle" font-size="14.5" font-weight="700" fill="#065F46">Mostrar «Inserte</text>
+<text x="690" y="360" text-anchor="middle" font-size="14.5" font-weight="700" fill="#065F46">su tarjeta»</text>
+<path d="M 690.0,287.0 L 690.0,312.0" fill="none" stroke="#065F46" stroke-width="1.7" marker-end="url(#g)"/>
+<rect x="710" y="285" width="36.4" height="18" fill="white" opacity="0.92"/>
+<text x="714" y="298" text-anchor="start" font-size="13" font-weight="700" fill="#065F46">[sí]</text>
+<rect x="60.0" y="402.0" width="230" height="46" rx="20" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.6"/>
+<text x="175" y="430" text-anchor="middle" font-size="14.5" font-weight="400" fill="#2563EB">Insertar tarjeta</text>
+<path d="M 690.0,378.0 L 690.0,390.0 L 175.0,390.0 L 175.0,402.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<rect x="575.0" y="467.0" width="230" height="66" rx="20" fill="#D1FAE5" stroke="#065F46" stroke-width="1.6"/>
+<text x="690" y="495" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">Leer número de tarjeta</text>
+<text x="690" y="515" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">y pedir validación</text>
+<path d="M 290.0,425.0 L 530.0,425.0 L 530.0,500.0 L 575.0,500.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<rect x="1062.5" y="457.0" width="225" height="86" rx="20" fill="#EDE9FE" stroke="#4C1D95" stroke-width="1.6"/>
+<text x="1175" y="485" text-anchor="middle" font-size="14.5" font-weight="400" fill="#4C1D95">Validar tarjeta:</text>
+<text x="1175" y="505" text-anchor="middle" font-size="14.5" font-weight="400" fill="#4C1D95">existe, no bloqueada,</text>
+<text x="1175" y="525" text-anchor="middle" font-size="14.5" font-weight="400" fill="#4C1D95">no anulada ni vencida</text>
+<path d="M 805.0,500.0 L 1062.5,500.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<polygon points="690,568 790,600 690,632 590,600" fill="white" stroke="#1A3A6B" stroke-width="1.8"/>
+<text x="690" y="597" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1A3A6B">¿Tarjeta</text>
+<text x="690" y="613" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1A3A6B">válida?</text>
+<path d="M 1175.0,543.0 L 1175.0,556.0 L 690.0,556.0 L 690.0,568.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<rect x="845.0" y="567.0" width="170" height="66" rx="20" fill="#D1FAE5" stroke="#065F46" stroke-width="1.6"/>
+<text x="930" y="595" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">Mostrar motivo</text>
+<text x="930" y="615" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">del rechazo</text>
+<path d="M 790.0,600.0 L 845.0,600.0" fill="none" stroke="#92400E" stroke-width="1.7" marker-end="url(#r)"/>
+<rect x="798.8" y="579" width="36.4" height="18" fill="white" opacity="0.92"/>
+<text x="816" y="592" text-anchor="middle" font-size="13" font-weight="700" fill="#92400E">[no]</text>
+<rect x="575.0" y="667.0" width="230" height="46" rx="20" fill="#D1FAE5" stroke="#065F46" stroke-width="2.2"/>
+<text x="690" y="695" text-anchor="middle" font-size="14.5" font-weight="700" fill="#065F46">Solicitar PIN</text>
+<path d="M 690.0,632.0 L 690.0,667.0" fill="none" stroke="#065F46" stroke-width="1.7" marker-end="url(#g)"/>
+<rect x="710" y="635" width="36.4" height="18" fill="white" opacity="0.92"/>
+<text x="714" y="648" text-anchor="start" font-size="13" font-weight="700" fill="#065F46">[sí]</text>
+<rect x="60.0" y="737.0" width="230" height="66" rx="20" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.6"/>
+<text x="175" y="765" text-anchor="middle" font-size="14.5" font-weight="400" fill="#2563EB">Ingresar PIN</text>
+<text x="175" y="785" text-anchor="middle" font-size="14.5" font-weight="400" fill="#2563EB">(teclado numérico)</text>
+<path d="M 690.0,713.0 L 690.0,730.0 L 175.0,730.0 L 175.0,737.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<polygon points="690,818 790,850 690,882 590,850" fill="white" stroke="#1A3A6B" stroke-width="1.8"/>
+<text x="690" y="855" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1A3A6B">¿4 dígitos?</text>
+<path d="M 290.0,770.0 L 530.0,770.0 L 530.0,850.0 L 590.0,850.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<rect x="365.0" y="897.0" width="170" height="66" rx="20" fill="#D1FAE5" stroke="#065F46" stroke-width="1.6"/>
+<text x="450" y="925" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">Avisar «Ingrese</text>
+<text x="450" y="945" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">los 4 dígitos»</text>
+<path d="M 590.0,850.0 L 450.0,850.0 L 450.0,897.0" fill="none" stroke="#92400E" stroke-width="1.7" marker-end="url(#r)"/>
+<rect x="472.8" y="829" width="36.4" height="18" fill="white" opacity="0.92"/>
+<text x="490" y="842" text-anchor="middle" font-size="13" font-weight="700" fill="#92400E">[no]</text>
+<path d="M 365.0,930.0 L 365.0,930.0 L 365.0,690.0 L 575.0,690.0" fill="none" stroke="#92400E" stroke-width="1.7" stroke-dasharray="7,4" marker-end="url(#r)"/>
+<rect x="575.0" y="897.0" width="230" height="66" rx="20" fill="#D1FAE5" stroke="#065F46" stroke-width="1.6"/>
+<text x="690" y="925" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">Calcular hash del PIN</text>
+<text x="690" y="945" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">(PBKDF2 + salt)</text>
+<path d="M 690.0,882.0 L 690.0,897.0" fill="none" stroke="#065F46" stroke-width="1.7" marker-end="url(#g)"/>
+<rect x="710" y="877" width="36.4" height="18" fill="white" opacity="0.92"/>
+<text x="714" y="890" text-anchor="start" font-size="13" font-weight="700" fill="#065F46">[sí]</text>
+<rect x="1325.0" y="887.0" width="270" height="86" rx="20" fill="#FAE8FF" stroke="#86198F" stroke-width="1.6"/>
+<text x="1460" y="915" text-anchor="middle" font-size="14.5" font-weight="400" fill="#86198F">Validar PIN; registrar</text>
+<text x="1460" y="935" text-anchor="middle" font-size="14.5" font-weight="400" fill="#86198F">intento fallido y bloquear</text>
+<text x="1460" y="955" text-anchor="middle" font-size="14.5" font-weight="400" fill="#86198F">la tarjeta al 3.º</text>
+<path d="M 805.0,930.0 L 1325.0,930.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<polygon points="690,998 790,1030 690,1062 590,1030" fill="white" stroke="#1A3A6B" stroke-width="1.8"/>
+<text x="690" y="1035" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1A3A6B">¿Resultado?</text>
+<path d="M 1460.0,973.0 L 1460.0,990.0 L 690.0,990.0 L 690.0,998.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<rect x="365.0" y="997.0" width="170" height="66" rx="20" fill="#D1FAE5" stroke="#065F46" stroke-width="1.6"/>
+<text x="450" y="1025" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">Mostrar intentos</text>
+<text x="450" y="1045" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">restantes</text>
+<path d="M 590.0,1030.0 L 535.0,1030.0" fill="none" stroke="#92400E" stroke-width="1.7" marker-end="url(#r)"/>
+<rect x="542.4" y="999" width="97.19999999999999" height="18" fill="white" opacity="0.92"/>
+<text x="590" y="1012" text-anchor="middle" font-size="13" font-weight="700" fill="#92400E">[incorrecto]</text>
+<path d="M 365.0,1030.0 L 348.0,1030.0 L 348.0,676.0 L 575.0,676.0" fill="none" stroke="#92400E" stroke-width="1.7" stroke-dasharray="7,4" marker-end="url(#r)"/>
+<rect x="845.0" y="997.0" width="170" height="66" rx="20" fill="#D1FAE5" stroke="#065F46" stroke-width="1.6"/>
+<text x="930" y="1025" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">Mostrar «Tarjeta</text>
+<text x="930" y="1045" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">bloqueada»</text>
+<path d="M 790.0,1030.0 L 845.0,1030.0" fill="none" stroke="#92400E" stroke-width="1.7" marker-end="url(#r)"/>
+<rect x="746.2" y="999" width="89.6" height="18" fill="white" opacity="0.92"/>
+<text x="790" y="1012" text-anchor="middle" font-size="13" font-weight="700" fill="#92400E">[bloqueada]</text>
+<rect x="1325.0" y="1077.0" width="270" height="66" rx="20" fill="#FAE8FF" stroke="#86198F" stroke-width="1.6"/>
+<text x="1460" y="1105" text-anchor="middle" font-size="14.5" font-weight="400" fill="#86198F">Obtener datos del</text>
+<text x="1460" y="1125" text-anchor="middle" font-size="14.5" font-weight="400" fill="#86198F">cliente y la cuenta</text>
+<path d="M 690.0,1062.0 L 690.0,1078.0 L 1460.0,1078.0 L 1460.0,1077.0" fill="none" stroke="#065F46" stroke-width="1.7" marker-end="url(#g)"/>
+<rect x="710" y="1057" width="82.0" height="18" fill="white" opacity="0.92"/>
+<text x="714" y="1070" text-anchor="start" font-size="13" font-weight="700" fill="#065F46">[correcto]</text>
+<rect x="575.0" y="1157.0" width="230" height="66" rx="20" fill="#D1FAE5" stroke="#065F46" stroke-width="2.2"/>
+<text x="690" y="1185" text-anchor="middle" font-size="14.5" font-weight="700" fill="#065F46">Mostrar menú</text>
+<text x="690" y="1205" text-anchor="middle" font-size="14.5" font-weight="700" fill="#065F46">de operaciones</text>
+<path d="M 1460.0,1143.0 L 1460.0,1158.0 L 690.0,1158.0 L 690.0,1157.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<rect x="60.0" y="1247.0" width="230" height="46" rx="20" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.6"/>
+<text x="175" y="1275" text-anchor="middle" font-size="14.5" font-weight="400" fill="#2563EB">Elegir operación</text>
+<path d="M 690.0,1223.0 L 690.0,1235.0 L 175.0,1235.0 L 175.0,1247.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<polygon points="690,1318 785,1350 690,1382 595,1350" fill="white" stroke="#1A3A6B" stroke-width="1.8"/>
+<text x="690" y="1355" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1A3A6B">¿Operación?</text>
+<path d="M 290.0,1270.0 L 530.0,1270.0 L 530.0,1308.0 L 690.0,1308.0 L 690.0,1318.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<rect x="575.0" y="1417.0" width="230" height="46" rx="20" fill="#D1FAE5" stroke="#065F46" stroke-width="1.6"/>
+<text x="690" y="1445" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">Solicitar saldo</text>
+<path d="M 690.0,1382.0 L 690.0,1417.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<rect x="710" y="1385" width="82.0" height="18" fill="white" opacity="0.92"/>
+<text x="714" y="1398" text-anchor="start" font-size="13" font-weight="700" fill="#1A3A6B">[Consulta]</text>
+<rect x="1325.0" y="1407.0" width="270" height="66" rx="20" fill="#FAE8FF" stroke="#86198F" stroke-width="1.6"/>
+<text x="1460" y="1435" text-anchor="middle" font-size="14.5" font-weight="400" fill="#86198F">Consultar saldo y</text>
+<text x="1460" y="1455" text-anchor="middle" font-size="14.5" font-weight="400" fill="#86198F">registrar la consulta</text>
+<path d="M 805.0,1440.0 L 1325.0,1440.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<rect x="575.0" y="1507.0" width="230" height="66" rx="20" fill="#D1FAE5" stroke="#065F46" stroke-width="1.6"/>
+<text x="690" y="1535" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">Mostrar saldo</text>
+<text x="690" y="1555" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">y comprobante</text>
+<path d="M 1460.0,1473.0 L 1460.0,1482.0 L 760.0,1482.0 L 760.0,1507.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<rect x="575.0" y="1587.0" width="230" height="46" rx="20" fill="#D1FAE5" stroke="#065F46" stroke-width="1.6"/>
+<text x="690" y="1615" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">Solicitar monto</text>
+<path d="M 595.0,1350.0 L 420.0,1350.0 L 420.0,1610.0 L 575.0,1610.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<rect x="422.4" y="1329" width="97.19999999999999" height="18" fill="white" opacity="0.92"/>
+<text x="470" y="1342" text-anchor="middle" font-size="13" font-weight="700" fill="#1A3A6B">[Extracción]</text>
+<rect x="60.0" y="1657.0" width="230" height="66" rx="20" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.6"/>
+<text x="175" y="1685" text-anchor="middle" font-size="14.5" font-weight="400" fill="#2563EB">Ingresar monto</text>
+<text x="175" y="1705" text-anchor="middle" font-size="14.5" font-weight="400" fill="#2563EB">y confirmar</text>
+<path d="M 690.0,1633.0 L 690.0,1652.0 L 175.0,1652.0 L 175.0,1657.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<polygon points="690,1739 800,1775 690,1811 580,1775" fill="white" stroke="#1A3A6B" stroke-width="1.8"/>
+<text x="690" y="1772" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1A3A6B">¿Monto &gt; 0 y</text>
+<text x="690" y="1788" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1A3A6B">múltiplo de $100?</text>
+<path d="M 290.0,1690.0 L 520.0,1690.0 L 520.0,1730.0 L 690.0,1730.0 L 690.0,1739.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<path d="M 580.0,1775.0 L 175.0,1775.0 L 175.0,1723.0" fill="none" stroke="#92400E" stroke-width="1.7" stroke-dasharray="7,4" marker-end="url(#r)"/>
+<rect x="426.2" y="1754" width="89.6" height="18" fill="white" opacity="0.92"/>
+<text x="470" y="1767" text-anchor="middle" font-size="13" font-weight="700" fill="#92400E">[no] avisar</text>
+<rect x="1325.0" y="1742.0" width="270" height="66" rx="20" fill="#FAE8FF" stroke="#86198F" stroke-width="1.6"/>
+<text x="1460" y="1770" text-anchor="middle" font-size="14.5" font-weight="400" fill="#86198F">Validar cuenta y saldo,</text>
+<text x="1460" y="1790" text-anchor="middle" font-size="14.5" font-weight="400" fill="#86198F">debitar y registrar</text>
+<path d="M 800.0,1775.0 L 1325.0,1775.0" fill="none" stroke="#065F46" stroke-width="1.7" marker-end="url(#g)"/>
+<rect x="826" y="1754" width="36.4" height="18" fill="white" opacity="0.92"/>
+<text x="830" y="1767" text-anchor="start" font-size="13" font-weight="700" fill="#065F46">[sí]</text>
+<polygon points="690,1833 790,1865 690,1897 590,1865" fill="white" stroke="#1A3A6B" stroke-width="1.8"/>
+<text x="690" y="1870" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1A3A6B">¿Autorizada?</text>
+<path d="M 1460.0,1808.0 L 1460.0,1825.0 L 690.0,1825.0 L 690.0,1833.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<rect x="560.0" y="1917.0" width="260" height="66" rx="20" fill="#D1FAE5" stroke="#065F46" stroke-width="1.6"/>
+<text x="690" y="1945" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">Dispensar efectivo y</text>
+<text x="690" y="1965" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">mostrar saldo y comprobante</text>
+<path d="M 690.0,1897.0 L 690.0,1917.0" fill="none" stroke="#065F46" stroke-width="1.7" marker-end="url(#g)"/>
+<rect x="710" y="1897" width="36.4" height="18" fill="white" opacity="0.92"/>
+<text x="714" y="1910" text-anchor="start" font-size="13" font-weight="700" fill="#065F46">[sí]</text>
+<rect x="845.0" y="1832.0" width="170" height="66" rx="20" fill="#D1FAE5" stroke="#065F46" stroke-width="1.6"/>
+<text x="930" y="1860" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">Mostrar motivo</text>
+<text x="930" y="1880" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">del rechazo</text>
+<path d="M 790.0,1865.0 L 845.0,1865.0" fill="none" stroke="#92400E" stroke-width="1.7" marker-end="url(#r)"/>
+<rect x="798.8" y="1844" width="36.4" height="18" fill="white" opacity="0.92"/>
+<text x="816" y="1857" text-anchor="middle" font-size="13" font-weight="700" fill="#92400E">[no]</text>
+<polygon points="690,2012 708,2030 690,2048 672,2030" fill="white" stroke="#1A3A6B" stroke-width="1.8"/>
+<text x="690" y="2035" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1A3A6B"></text>
+<path d="M 690.0,1983.0 L 690.0,2012.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<path d="M 930.0,1898.0 L 930.0,2030.0 L 708.0,2030.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<rect x="575.0" y="2082.0" width="230" height="66" rx="20" fill="#D1FAE5" stroke="#065F46" stroke-width="1.6"/>
+<text x="690" y="2110" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">Solicitar cuenta</text>
+<text x="690" y="2130" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">destino y monto</text>
+<path d="M 785.0,1350.0 L 1065.0,1350.0 L 1065.0,2115.0 L 805.0,2115.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<rect x="947.0" y="1329" width="120.0" height="18" fill="white" opacity="0.92"/>
+<text x="1065" y="1342" text-anchor="end" font-size="13" font-weight="700" fill="#1A3A6B">[Transferencia]</text>
+<rect x="60.0" y="2157.0" width="230" height="86" rx="20" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.6"/>
+<text x="175" y="2185" text-anchor="middle" font-size="14.5" font-weight="400" fill="#2563EB">Ingresar cuenta</text>
+<text x="175" y="2205" text-anchor="middle" font-size="14.5" font-weight="400" fill="#2563EB">destino, monto</text>
+<text x="175" y="2225" text-anchor="middle" font-size="14.5" font-weight="400" fill="#2563EB">y confirmar</text>
+<path d="M 690.0,2148.0 L 690.0,2160.0 L 175.0,2160.0 L 175.0,2157.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<polygon points="690,2257 815,2295 690,2333 565,2295" fill="white" stroke="#1A3A6B" stroke-width="1.8"/>
+<text x="690" y="2292" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1A3A6B">¿Formato válido y</text>
+<text x="690" y="2308" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1A3A6B">no es la propia cuenta?</text>
+<path d="M 290.0,2200.0 L 520.0,2200.0 L 520.0,2245.0 L 690.0,2245.0 L 690.0,2257.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<path d="M 565.0,2295.0 L 175.0,2295.0 L 175.0,2243.0" fill="none" stroke="#92400E" stroke-width="1.7" stroke-dasharray="7,4" marker-end="url(#r)"/>
+<rect x="426.2" y="2274" width="89.6" height="18" fill="white" opacity="0.92"/>
+<text x="470" y="2287" text-anchor="middle" font-size="13" font-weight="700" fill="#92400E">[no] avisar</text>
+<rect x="1325.0" y="2262.0" width="270" height="66" rx="20" fill="#FAE8FF" stroke="#86198F" stroke-width="1.6"/>
+<text x="1460" y="2290" text-anchor="middle" font-size="14.5" font-weight="400" fill="#86198F">Validar destino y saldo,</text>
+<text x="1460" y="2310" text-anchor="middle" font-size="14.5" font-weight="400" fill="#86198F">mover el dinero y registrar</text>
+<path d="M 815.0,2295.0 L 1325.0,2295.0" fill="none" stroke="#065F46" stroke-width="1.7" marker-end="url(#g)"/>
+<rect x="841" y="2274" width="36.4" height="18" fill="white" opacity="0.92"/>
+<text x="845" y="2287" text-anchor="start" font-size="13" font-weight="700" fill="#065F46">[sí]</text>
+<polygon points="690,2353 790,2385 690,2417 590,2385" fill="white" stroke="#1A3A6B" stroke-width="1.8"/>
+<text x="690" y="2390" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1A3A6B">¿Realizada?</text>
+<path d="M 1460.0,2328.0 L 1460.0,2345.0 L 690.0,2345.0 L 690.0,2353.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<rect x="575.0" y="2437.0" width="230" height="66" rx="20" fill="#D1FAE5" stroke="#065F46" stroke-width="1.6"/>
+<text x="690" y="2465" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">Mostrar comprobante</text>
+<text x="690" y="2485" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">y saldo restante</text>
+<path d="M 690.0,2417.0 L 690.0,2437.0" fill="none" stroke="#065F46" stroke-width="1.7" marker-end="url(#g)"/>
+<rect x="710" y="2417" width="36.4" height="18" fill="white" opacity="0.92"/>
+<text x="714" y="2430" text-anchor="start" font-size="13" font-weight="700" fill="#065F46">[sí]</text>
+<rect x="845.0" y="2352.0" width="170" height="66" rx="20" fill="#D1FAE5" stroke="#065F46" stroke-width="1.6"/>
+<text x="930" y="2380" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">Mostrar motivo</text>
+<text x="930" y="2400" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">del rechazo</text>
+<path d="M 790.0,2385.0 L 845.0,2385.0" fill="none" stroke="#92400E" stroke-width="1.7" marker-end="url(#r)"/>
+<rect x="798.8" y="2364" width="36.4" height="18" fill="white" opacity="0.92"/>
+<text x="816" y="2377" text-anchor="middle" font-size="13" font-weight="700" fill="#92400E">[no]</text>
+<polygon points="690,2532 708,2550 690,2568 672,2550" fill="white" stroke="#1A3A6B" stroke-width="1.8"/>
+<text x="690" y="2555" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1A3A6B"></text>
+<path d="M 690.0,2503.0 L 690.0,2532.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<path d="M 930.0,2418.0 L 930.0,2550.0 L 708.0,2550.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<polygon points="690,2602 708,2620 690,2638 672,2620" fill="white" stroke="#1A3A6B" stroke-width="1.8"/>
+<text x="690" y="2625" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1A3A6B"></text>
+<path d="M 690.0,2568.0 L 690.0,2602.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<path d="M 805.0,1540.0 L 1030.0,1540.0 L 1030.0,2610.0 L 708.0,2614.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<path d="M 690.0,2048.0 L 690.0,2062.0 L 1042.0,2062.0 L 1042.0,2626.0 L 708.0,2626.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<polygon points="690,2668 790,2700 690,2732 590,2700" fill="white" stroke="#1A3A6B" stroke-width="1.8"/>
+<text x="690" y="2705" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1A3A6B">¿Otra operación?</text>
+<path d="M 690.0,2638.0 L 690.0,2668.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<path d="M 590.0,2700.0 L 318.0,2700.0 L 318.0,1180.0 L 575.0,1180.0" fill="none" stroke="#065F46" stroke-width="1.7" stroke-dasharray="7,4" marker-end="url(#g)"/>
+<rect x="452.8" y="2679" width="36.4" height="18" fill="white" opacity="0.92"/>
+<text x="470" y="2692" text-anchor="middle" font-size="13" font-weight="700" fill="#065F46">[sí]</text>
+<rect x="560.0" y="2757.0" width="260" height="66" rx="20" fill="#D1FAE5" stroke="#065F46" stroke-width="1.6"/>
+<text x="690" y="2785" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">Mostrar detalle de la</text>
+<text x="690" y="2805" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">sesión (ticket en pantalla)</text>
+<path d="M 690.0,2732.0 L 690.0,2757.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<rect x="710" y="2737" width="36.4" height="18" fill="white" opacity="0.92"/>
+<text x="714" y="2750" text-anchor="start" font-size="13" font-weight="700" fill="#1A3A6B">[no]</text>
+<path d="M 785.0,1350.0 L 1110.0,1350.0 L 1110.0,2790.0 L 820.0,2790.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<rect x="1114" y="1367" width="89.6" height="18" fill="white" opacity="0.92"/>
+<text x="1118" y="1380" text-anchor="start" font-size="13" font-weight="700" fill="#1A3A6B">[Finalizar]</text>
+<polygon points="690,2848 790,2880 690,2912 590,2880" fill="white" stroke="#1A3A6B" stroke-width="1.8"/>
+<text x="690" y="2885" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1A3A6B">¿Pide el ticket?</text>
+<path d="M 690.0,2823.0 L 690.0,2848.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<rect x="845.0" y="2857.0" width="170" height="46" rx="20" fill="#D1FAE5" stroke="#065F46" stroke-width="1.6"/>
+<text x="930" y="2885" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">Imprimir ticket</text>
+<path d="M 790.0,2880.0 L 845.0,2880.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<rect x="798.8" y="2859" width="36.4" height="18" fill="white" opacity="0.92"/>
+<text x="816" y="2872" text-anchor="middle" font-size="13" font-weight="700" fill="#1A3A6B">[sí]</text>
+<polygon points="690,2942 708,2960 690,2978 672,2960" fill="white" stroke="#1A3A6B" stroke-width="1.8"/>
+<text x="690" y="2965" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1A3A6B"></text>
+<path d="M 690.0,2912.0 L 690.0,2942.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<rect x="710" y="2912" width="36.4" height="18" fill="white" opacity="0.92"/>
+<text x="714" y="2925" text-anchor="start" font-size="13" font-weight="700" fill="#1A3A6B">[no]</text>
+<path d="M 930.0,2903.0 L 930.0,2960.0 L 708.0,2960.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<rect x="575.0" y="3017.0" width="230" height="46" rx="20" fill="#D1FAE5" stroke="#065F46" stroke-width="2.2"/>
+<text x="690" y="3045" text-anchor="middle" font-size="14.5" font-weight="700" fill="#065F46">Devolver tarjeta</text>
+<path d="M 690.0,2978.0 L 690.0,3017.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<path d="M 930.0,633.0 L 930.0,650.0 L 1250.0,650.0 L 1250.0,3040.0 L 805.0,3040.0" fill="none" stroke="#92400E" stroke-width="1.7" stroke-dasharray="7,4" marker-end="url(#r)"/>
+<path d="M 930.0,1063.0 L 930.0,1072.0 L 1250.0,1072.0" fill="none" stroke="#92400E" stroke-width="1.7" stroke-dasharray="7,4" marker-end="url(#r)"/>
+<rect x="60.0" y="3097.0" width="230" height="46" rx="20" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.6"/>
+<text x="175" y="3125" text-anchor="middle" font-size="14.5" font-weight="400" fill="#2563EB">Retirar tarjeta</text>
+<path d="M 690.0,3063.0 L 690.0,3082.0 L 175.0,3082.0 L 175.0,3097.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<rect x="565.0" y="3162.0" width="250" height="66" rx="20" fill="#D1FAE5" stroke="#065F46" stroke-width="1.6"/>
+<text x="690" y="3190" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">Cerrar sesión y borrar</text>
+<text x="690" y="3210" text-anchor="middle" font-size="14.5" font-weight="400" fill="#065F46">los datos de memoria</text>
+<path d="M 290.0,3120.0 L 520.0,3120.0 L 520.0,3150.0 L 690.0,3150.0 L 690.0,3162.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/>
+<path d="M 565.0,3195.0 L 305.0,3195.0 L 305.0,345.0 L 575.0,345.0" fill="none" stroke="#1A3A6B" stroke-width="1.7" stroke-dasharray="7,4" marker-end="url(#n)"/>
+<rect x="308" y="3239" width="348.0" height="18" fill="white" opacity="0.92"/>
+<text x="312" y="3252" text-anchor="start" font-size="13" font-weight="700" fill="#1A3A6B">el cajero queda listo para el próximo cliente</text>
+<rect x="1320" y="2700" width="285" height="250" rx="8" fill="white" stroke="#CBD5E1"/>
+<text x="1462" y="2726" text-anchor="middle" font-size="15" font-weight="700" fill="#475569">Leyenda</text>
+<circle cx="1348" cy="2752" r="9" fill="#1A3A6B"/>
+<text x="1370" y="2757" font-size="13" fill="#475569">Nodo inicial</text>
+<circle cx="1348" cy="2782" r="10" fill="white" stroke="#1A3A6B" stroke-width="2"/><circle cx="1348" cy="2782" r="6" fill="#1A3A6B"/>
+<text x="1370" y="2787" font-size="13" fill="#475569">Nodo final</text>
+<rect x="1334" y="2802" width="28" height="18" rx="9" fill="#D1FAE5" stroke="#065F46"/>
+<text x="1370" y="2816" font-size="13" fill="#475569">Actividad</text>
+<polygon points="1348,2832 1362,2844 1348,2856 1334,2844" fill="white" stroke="#1A3A6B"/>
+<text x="1370" y="2849" font-size="13" fill="#475569">Decisión / unión</text>
+<text x="1334" y="2880" font-size="13" font-weight="700" fill="#1A3A6B">[guarda]</text><text x="1410" y="2880" font-size="13" fill="#475569">condición de la rama</text>
+<line x1="1334" y1="2902" x2="1362" y2="2902" stroke="#1A3A6B" stroke-width="1.7" marker-end="url(#n)"/><text x="1370" y="2907" font-size="13" fill="#475569">Flujo normal</text>
+<line x1="1334" y1="2930" x2="1362" y2="2930" stroke="#92400E" stroke-width="1.7" stroke-dasharray="7,4" marker-end="url(#r)"/><text x="1370" y="2935" font-size="13" fill="#92400E">Rechazo / reintento</text>
+</svg>
