@@ -154,6 +154,5 @@ dentro del documento.
 
 ## Integrantes
 
-- Marcos ([@marcosh2222-m](https://github.com/marcosh2222-m))
-- [@IvanAlejandro115](https://github.com/IvanAlejandro115)
-- *(completar con el resto del grupo)*
+- Marcos Murua  ([@marcosh2222-m](https://github.com/marcosh2222-m))
+- Mateo D'ambrosio
