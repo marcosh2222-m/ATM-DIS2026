@@ -46,10 +46,6 @@
 <rect x="700" y="645.5" width="174.1" height="18.5" fill="white"/>
 <text x="702" y="659.0" text-anchor="start" font-size="13.5" fill="#1F3B57">/ ReiniciarIntentos()</text>
 <path d="M 690,796 L 690,920" fill="none" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
-<rect x="700" y="841.5" width="93.1" height="18.5" fill="white"/>
-<text x="702" y="855.0" text-anchor="start" font-size="13.5" fill="#1F3B57">Finalizar ó</text>
-<rect x="700" y="860.5" width="174.1" height="18.5" fill="white"/>
-<text x="702" y="874.0" text-anchor="start" font-size="13.5" fill="#1F3B57">¿otra operación? = No</text>
 <path d="M 690,1016 L 690,1090" fill="none" stroke="#1F3B57" stroke-width="1.8" marker-end="url(#f)"/>
 <rect x="700" y="1044.5" width="222.7" height="18.5" fill="white"/>
 <text x="702" y="1058.0" text-anchor="start" font-size="13.5" fill="#1F3B57">tarjeta retirada / Cerrar()</text>
@@ -77,17 +73,29 @@
 <text x="912.0" y="764" text-anchor="start" font-size="13.5" fill="#1F3B57">/ AgregarOperacion()</text>
 <rect x="910.0" y="769.5" width="4.0" height="18.5" fill="white"/>
 <text x="912.0" y="783" text-anchor="start" font-size="13.5" fill="#1F3B57"></text>
-<rect x="910.0" y="788.5" width="230.79999999999998" height="18.5" fill="white"/>
-<text x="912.0" y="802" text-anchor="start" font-size="13.5" fill="#1F3B57">[rechazada] / mostrar motivo</text>
 <path d="M 540.0,348.0 L 230,348.0 L 230,942 L 540.0,942" fill="none" stroke="#9B2C2C" stroke-width="1.8" stroke-dasharray="7,5" marker-end="url(#r)"/>
-<rect x="266.8" y="306.5" width="263.2" height="18.5" fill="white"/>
-<text x="528.0" y="320.0" text-anchor="end" font-size="13.5" fill="#9B2C2C">[tarjeta inexistente, bloqueada,</text>
-<rect x="380.20000000000005" y="325.5" width="149.79999999999998" height="18.5" fill="white"/>
-<text x="528.0" y="339.0" text-anchor="end" font-size="13.5" fill="#9B2C2C">vencida o anulada]</text>
 <path d="M 540.0,538.0 L 285,538.0 L 285,970 L 540.0,970" fill="none" stroke="#9B2C2C" stroke-width="1.8" stroke-dasharray="7,5" marker-end="url(#r)"/>
-<rect x="258.7" y="478.5" width="271.3" height="18.5" fill="white"/>
-<text x="528.0" y="492.0" text-anchor="end" font-size="13.5" fill="#9B2C2C">[3er PIN incorrecto] / Bloquear()</text>
-<rect x="445.0" y="497.5" width="85.0" height="18.5" fill="white"/>
-<text x="528.0" y="511.0" text-anchor="end" font-size="13.5" fill="#9B2C2C">ó cancelar</text>
+<rect x="312.8" y="287.5" width="217.2" height="18.5" fill="white"/>
+<text x="528.0" y="301.0" text-anchor="end" font-size="13.5" fill="#9B2C2C">[tarjeta inexistente, bloqueada,</text>
+<rect x="396.8" y="306.5" width="133.2" height="18.5" fill="white"/>
+<text x="528.0" y="320.0" text-anchor="end" font-size="13.5" fill="#9B2C2C">vencida o anulada]</text>
+<rect x="361.9" y="325.5" width="168.1" height="18.5" fill="white"/>
+<text x="528.0" y="339.0" text-anchor="end" font-size="13.5" fill="#9B2C2C">ó error de comunicación</text>
+<rect x="310.2" y="440.5" width="219.8" height="18.5" fill="white"/>
+<text x="528.0" y="454.0" text-anchor="end" font-size="13.5" fill="#9B2C2C">[3er PIN incorrecto] / Bloquear()</text>
+<rect x="329.9" y="459.5" width="200.1" height="18.5" fill="white"/>
+<text x="528.0" y="473.0" text-anchor="end" font-size="13.5" fill="#9B2C2C">ó [tarjeta vencida o anulada]</text>
+<rect x="455.9" y="478.5" width="74.1" height="18.5" fill="white"/>
+<text x="528.0" y="492.0" text-anchor="end" font-size="13.5" fill="#9B2C2C">ó cancelar</text>
+<rect x="361.9" y="497.5" width="168.1" height="18.5" fill="white"/>
+<text x="528.0" y="511.0" text-anchor="end" font-size="13.5" fill="#9B2C2C">ó error de comunicación</text>
+<rect x="910.0" y="788.5" width="279.8" height="18.5" fill="white"/>
+<text x="912.0" y="802.0" text-anchor="start" font-size="13.5" fill="#1F3B57">[rechazada o con error] / mostrar motivo</text>
+<rect x="700.0" y="832.5" width="163.5" height="18.5" fill="white"/>
+<text x="702" y="846.0" text-anchor="start" font-size="13.5" fill="#1F3B57">Finalizar [confirmado] ó</text>
+<rect x="700.0" y="851.5" width="167.7" height="18.5" fill="white"/>
+<text x="702" y="865.0" text-anchor="start" font-size="13.5" fill="#1F3B57">¿otra operación? = No ó</text>
+<rect x="700.0" y="870.5" width="207.1" height="18.5" fill="white"/>
+<text x="702" y="884.0" text-anchor="start" font-size="13.5" fill="#1F3B57">cierre de la ventana del menú</text>
 <text x="720.0" y="1284" text-anchor="middle" font-size="13" font-style="italic" fill="#595959">evento [guarda] / acción · entry = al entrar al estado · do = mientras está en el estado · línea roja punteada = fin anticipado de la sesión</text>
 </svg>

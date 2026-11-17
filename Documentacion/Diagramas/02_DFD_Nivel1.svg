@@ -159,9 +159,6 @@
 <path d="M 807.4,1410.0 L 1080.0,1410.0 L 1080.0,1448.0" fill="none" stroke="#1F3B57" stroke-width="1.5" marker-end="url(#a)"/>
 <rect x="1086.0" y="1414.5" width="109.3" height="17.5" fill="white"/>
 <text x="1088.0" y="1428.0" text-anchor="start" font-size="13.5" fill="#1F3B57">Transacciones</text>
-<path d="M 1140.0,1492.0 L 1140.0,1540.0 L 814.3,1540.0" fill="none" stroke="#1F3B57" stroke-width="1.5" marker-end="url(#a)"/>
-<rect x="1146.0" y="1500.5" width="198.4" height="17.5" fill="white"/>
-<text x="1148.0" y="1514.0" text-anchor="start" font-size="13.5" fill="#1F3B57">Historial de Operaciones</text>
 <path d="M 698.0,1370.0 L 432.0,1370.0" fill="none" stroke="#1F3B57" stroke-width="1.5" marker-end="url(#a)"/>
 <rect x="438.0" y="1348.5" width="166.0" height="17.5" fill="white"/>
 <text x="440.0" y="1362.0" text-anchor="start" font-size="13.5" fill="#1F3B57">Detalle de Operación</text>
@@ -171,6 +168,13 @@
 <path d="M 785.0,1630.0 L 785.0,1690.0" fill="none" stroke="#1F3B57" stroke-width="1.5" marker-end="url(#a)"/>
 <rect x="791.0" y="1656.5" width="109.3" height="17.5" fill="white"/>
 <text x="793.0" y="1670.0" text-anchor="start" font-size="13.5" fill="#1F3B57">Fin de Sesión</text>
+<rect x="1000" y="440" width="240" height="44" fill="white"/>
+<line x1="1000" y1="440" x2="1240" y2="440" stroke="#1F3B57" stroke-width="2.5"/>
+<line x1="1000" y1="484" x2="1240" y2="484" stroke="#1F3B57" stroke-width="2.5"/>
+<text x="1120.0" y="468.0" text-anchor="middle" font-size="16" fill="#1F3B57" font-weight="700">D2 Cuentas *</text>
+<path d="M 806.1,411.5 L 1120.0,411.5 L 1120.0,440.0" fill="none" stroke="#1F3B57" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="1126.0" y="417.5" width="60.7" height="17.5" fill="white"/>
+<text x="1128.0" y="431.0" text-anchor="start" font-size="13.5" fill="#1F3B57">Cuentas</text>
 <circle cx="760" cy="170" r="62" fill="#2E7D74" stroke="#1F3B57" stroke-width="3"/>
 <text x="760.0" y="142.0" text-anchor="middle" font-size="15" fill="white" font-weight="700">1</text>
 <text x="760.0" y="170.0" text-anchor="middle" font-size="13.5" fill="white">Validar</text>
@@ -204,5 +208,5 @@
 <text x="760.0" y="1570.0" text-anchor="middle" font-size="13.5" fill="white">Emitir Ticket y</text>
 <text x="760.0" y="1587.0" text-anchor="middle" font-size="13.5" fill="white">Devolver Tarjeta</text>
 <text x="780.0" y="1785.0" text-anchor="middle" font-size="14" fill="#595959" font-style="italic">8 procesos · 3 almacenes · 24 flujos externos (balanceados con el Contexto) · loop de “otra operación” a P3</text>
-<text x="780.0" y="1810.0" text-anchor="middle" font-size="12.5" fill="#595959" font-style="italic">Almacén = dos líneas paralelas · D1 se repite (marcado con *) para evitar cruces de líneas</text>
+<text x="780.0" y="1810.0" text-anchor="middle" font-size="12.5" fill="#595959" font-style="italic">Almacén = dos líneas paralelas · D1 y D2 se repiten (marcados con *) para evitar cruces de líneas</text>
 </svg>
