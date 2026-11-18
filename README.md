@@ -156,3 +156,4 @@ dentro del documento.
 
 - Marcos Murua  ([@marcosh2222-m](https://github.com/marcosh2222-m))
 - Mateo D'ambrosio
+- Luis Lagoa
